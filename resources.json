@@ -1,0 +1,1202 @@
+{
+    "_sort": "asc",
+
+    "Resources": [
+        {
+            "00246B6A":	"Adaptive Frame",
+            "ico": "00246B6A.png",
+            "mat":
+            {
+                "00246B6A": 1
+            }
+        },
+
+        {
+            "000055B1":	"Adhesive",
+            "ico": "000055B1.png",
+            "mat":
+            {
+                "000055B1": 1
+            }
+        },
+
+        {
+            "00005DEC":	"Aldumite",
+            "ico": "00005DEC.png",
+            "mat":
+            {
+                "00005DEC": 1
+            }
+        },
+
+        {
+            "00202F5A":	"Aldumite Drilling Rig",
+            "ico": "00202F5A.png",
+            "mat":
+            {
+                "00202F5A": 1
+            }
+        },
+
+        {
+            "0029B04F": "Alien Liquor",
+            "ico": "0029B04F.png",
+            "mat":
+            {
+                "0029B04F": 1
+            }
+        },
+
+        {
+            "000C1F57": "Alien Genetic Material",
+            "ico": "",
+            "mat":
+            {
+                "000C1F57": 1
+            }
+        },
+
+        {
+            "00005570":	"Alkanes",
+            "ico": "00005570.png",
+            "mat":
+            {
+                "00005570": 1
+            }
+        },
+
+        {
+            "0000557D":	"Aluminum",
+            "ico": "0000557D.png",
+            "mat":
+            {
+                "0000557D": 1
+            }
+        },
+
+        {
+            "000055CD":	"Amino Acids",
+            "ico": "000055CD.png",
+            "mat":
+            {
+                "000055CD": 1
+            }
+        },
+
+        {
+            "000055A9":	"Analgesic",
+            "ico": "000055A9.png",
+            "mat":
+            {
+                "000055A9": 1
+            }
+        },
+
+        {
+            "000055AB":	"Antimicrobial",
+            "ico": "000055AB.png",
+            "mat":
+            {
+                "000055AB": 1
+            }
+        },
+
+        {
+            "0000557B":	"Antimony",
+            "ico": "0000557B.png",
+            "mat":
+            {
+                "0000557B": 1
+            }
+        },
+
+        {
+            "002F4436": "Antibiotics",
+            "ico": "002F4436.png",
+            "mat":
+            {
+                "002F4436": 1
+            }
+        },
+
+        {
+            "00005588":	"Argon",
+            "ico": "00005588.png",
+            "mat":
+            {
+                "00005588": 1
+            }
+        },
+
+        {
+            "000055B8":	"Aromatic",
+            "ico": "000055B8.png",
+            "mat":
+            {
+                "000055B8": 1
+            }
+        },
+
+        {
+            "002C5884": "Aurora",
+            "ico": "",
+            "mat":
+            {
+                "002C5884": 1
+            }
+        },
+
+        {
+            "00246B7C":	"Austenitic Manifold",
+            "ico": "00246B7C.png",
+            "mat":
+            {
+                "00246B7C": 1
+            }
+        },
+
+        {
+            "00005585":	"Benzene",
+            "ico": "00005585.png",
+            "mat":
+            {
+                "00005585": 1
+            }
+        },
+
+        {
+            "000057D9":	"Beryllium",
+            "ico": "000057D9.png",
+            "mat":
+            {
+                "000057D9": 1
+            }
+        },
+
+        {
+            "002A5024": "Battlestim",
+            "ico": "002A5024.png",
+            "mat":
+            {
+                "002A5024": 1
+            }
+        },
+
+        {
+            "000055B2":	"Biosuppressant",
+            "ico": "000055B2.png",
+            "mat":
+            {
+                "000055B2": 1
+            }
+        },
+
+        {
+            "00122EA8": "Black Hole Heart",
+            "ico": "00122EA8.png",
+            "mat":
+            {
+                "00122EA8": 1
+            }
+        },
+
+        {
+            "002C723E": "Bread",
+            "ico": "002C723E.png",
+            "mat":
+            {
+                "002C723E": 1
+            }
+        },
+
+        {
+            "002C7C0A": "Butter",
+            "ico": "002C7C0A.png",
+            "mat":
+            {
+                "002C7C0A": 1
+            }
+        },
+
+        {
+            "000057DF":	"Caesium",
+            "ico": "000057DF.png",
+            "mat":
+            {
+                "000057DF": 1
+            }
+        },
+
+        {
+            "000788D6": "Caelumite",
+            "ico": "000788D6.png",
+            "mat":
+            {
+                "000788D6": 1
+            }
+        },
+
+        {
+            "002C7231": "CAN-uck! Poutine",
+            "ico": "002C7231.png",
+            "mat":
+            {
+                "002C7231": 1
+            }
+        },
+
+        {
+            "00005586":	"Carboxylic Acids",
+            "ico": "00005586.png",
+            "mat":
+            {
+                "00005586": 1
+            }
+        },
+
+        {
+            "0013BD9C":	"Chasmbass Oil",
+            "ico": "",
+            "mat":
+            {
+                "0013BD9C": 1
+            }
+        },
+
+        {
+            "001FC9C1": "Cheese",
+            "ico": "001FC9C1.png",
+            "mat":
+            {
+                "001FC9C1": 1
+            }
+        },
+
+        {
+            "0000557C": "Chlorine",
+            "ico": "0000557C.png",
+            "mat":
+            {
+                "0000557C": 1
+            }
+        },
+
+        {
+            "0000557E":	"Chlorosilanes",
+            "ico": "0000557E.png",
+            "mat":
+            {
+                "0000557E": 1
+            }
+        },
+
+        {
+            "00005575":	"Cobalt",
+            "ico": "00005575.png",
+            "mat":
+            {
+                "00005575": 1
+            }
+        },
+
+        {
+            "0025B0FB":	"Coffee Bag",
+            "ico": "",
+            "mat":
+            {
+                "0025B0FB": 1
+            }
+        },
+
+        {
+            "00246B64":	"Comm Relay",
+            "ico": "00246B64.png",
+            "mat":
+            {
+                "00246B64": 1
+            }
+        },
+
+        {
+            "00246B7B":	"Control Rod",
+            "ico": "00246B7B.png",
+            "mat":
+            {
+                "00246B7B": 1
+            }
+        },
+
+        {
+            "00005576":	"Copper",
+            "ico": "00005576.png",
+            "mat":
+            {
+                "00005576": 1
+            }
+        },
+
+        {
+            "000055A8":	"Cosmetic",
+            "ico": "000055A8.png",
+            "mat":
+            {
+                "000055A8": 1
+            }
+        },
+
+        {
+            "0029A85E": "CQB-X",
+            "ico": "0029A85E.png",
+            "mat":
+            {
+                "0029A85E": 1
+            }
+        },
+
+        {
+            "0020A02F":	"Drilling Rig",
+            "ico": "0020A02F.png",
+            "mat":
+            {
+                "0020A02F": 1
+            }
+        },
+
+        {
+            "00299599": "Dwarf Star Heart",
+            "ico": "00299599.png",
+            "mat":
+            {
+                "00299599": 1
+            }
+        },
+
+        {
+            "00005569":	"Dysprosium",
+            "ico": "00005569.png",
+            "mat":
+            {
+                "00005569": 1
+            }
+        },
+
+        {
+            "002A9DE8":	"Emergency Kit",
+            "ico": "002A9DE8.png",
+            "mat":
+            {
+                "002A9DE8": 1
+            }
+        },
+
+        {
+            "000057E1":	"Europium",
+            "ico": "000057E1.png",
+            "mat":
+            {
+                "000057E1": 1
+            }
+        },
+
+        {
+            "000055AF":	"Fiber",
+            "ico": "000055AF.png",
+            "mat":
+            {
+                "000055AF": 1
+            }
+        },
+
+        {
+            "00005577":	"Fluorine",
+            "ico": "00005577.png",
+            "mat":
+            {
+                "00005577": 1
+            }
+        },
+
+        {
+            "00005579":	"Gold",
+            "ico": "00005579.png",
+            "mat":
+            {
+                "00005579": 1
+            }
+        },
+
+        {
+            "0029F405":	"Hallucinogen",
+            "ico": "",
+            "mat":
+            {
+                "0029F405": 1
+            }
+        },
+
+        {
+            "0029CAD9": "Heart+",
+            "ico": "0029CAD9.png",
+            "mat":
+            {
+                "0029CAD9": 1
+            }
+        },
+
+        {
+            "0000558E":	"Helium-3",
+            "ico": "0000558E.png",
+            "mat":
+            {
+                "0000558E": 1
+            }
+        },
+
+        {
+            "0029F40D":	"Hypercatalyst",
+            "ico": "0029F40D.png",
+            "mat":
+            {
+                "0029F40D": 1
+            }
+        },
+
+        {
+            "000055AA": "High-Tensile Spidroin",
+            "ico": "000055AA.png",
+            "mat":
+            {
+                "000055AA": 1
+            }
+        },
+
+        {
+            "002C5883": "Hippolyta",
+            "ico": "002C5883.png",
+            "mat":
+            {
+                "002C5883": 1
+            }
+        },
+
+        {
+            "000055B3":	"Immunostimulant",
+            "ico": "",
+            "mat":
+            {
+                "000055B3": 1
+            }
+        },
+
+        {
+            "0004BA37":	"Indicite",
+            "ico": "0004BA37.png",
+            "mat":
+            {
+                "0004BA37": 1
+            }
+        },
+
+        {
+            "00203EB4":	"Indicite Wafer",
+            "ico": "00203EB4.png",
+            "mat":
+            {
+                "00203EB4": 1
+            }
+        },
+
+        {
+            "0029A85C": "Infantry Alpha",
+            "ico": "0029A85C.png",
+            "mat":
+            {
+                "0029A85C": 1
+            }
+        },
+
+        {
+            "0000557A":	"Ionic Liquids",
+            "ico": "0000557A.png",
+            "mat":
+            {
+                "0000557A": 1
+            }
+        },
+
+        {
+            "0000558A":	"Iridium",
+            "ico": "0000558A.png",
+            "mat":
+            {
+                "0000558A": 1
+            }
+        },
+
+        {
+            "0000556E":	"Iron",
+            "ico": "0000556E.png",
+            "mat":
+            {
+                "0000556E": 1
+            }
+        },
+
+        {
+            "00246B77":	"Isocentered Magnet",
+            "ico": "00246B77.png",
+            "mat":
+            {
+                "00246B77": 1
+            }
+        },
+
+        {
+            "00246B76":	"Isotopic Coolant",
+            "ico": "00246B76.png",
+            "mat":
+            {
+                "00246B76": 1
+            }
+        },
+
+        {
+            "00005568":	"Lead",
+            "ico": "00005568.png",
+            "mat":
+            {
+                "00005568": 1
+            }
+        },
+
+        {
+            "0000557F":	"Lithium",
+            "ico": "0000557F.png",
+            "mat":
+            {
+                "0000557F": 1
+            }
+        },
+
+        {
+            "000055BA":	"Lubricant",
+            "ico": "000055BA.png",
+            "mat":
+            {
+                "000055BA": 1
+            }
+        },
+
+        {
+            "0000559E":	"Luxury Textile",
+            "ico": "0000559E.png",
+            "mat":
+            {
+                "0000559E": 1
+            }
+        },
+
+        {
+            "00246B70":	"Mag Pressure Tank",
+            "ico": "00246B70.png",
+            "mat":
+            {
+                "00246B70": 1
+            }
+        },
+
+        {
+            "002C7222": "Meal Pack - Eggs",
+            "ico": "002C7222.png",
+            "mat":
+            {
+                "002C7222": 1
+            }
+        },
+
+        {
+            "000055B0":	"Membrane",
+            "ico": "000055B0.png",
+            "mat":
+            {
+                "000055B0": 1
+            }
+        },
+
+        {
+            "0000559B":	"Memory Substrate",
+            "ico": "0000559B.png",
+            "mat":
+            {
+                "0000559B": 1
+            }
+        },
+
+        {
+            "0027C4A1":	"Mercury",
+            "ico": "0027C4A1.png",
+            "mat":
+            {
+                "0027C4A1": 1
+            }
+        },
+
+        {
+            "0029F3FC":	"Metabolic Agent",
+            "ico": "0029F3FC.png",
+            "mat":
+            {
+                "0029F3FC": 1
+            }
+        },
+
+        {
+            "00246B5F":	"Microsecond Regulator",
+            "ico": "00246B5F.png",
+            "mat":
+            {
+                "00246B5F": 1
+            }
+        },
+
+        {
+            "00246B75":	"Molecular Sieve",
+            "ico": "00246B75.png",
+            "mat":
+            {
+                "00246B75": 1
+            }
+        },
+
+        {
+            "00246B74":	"Monopropellant",
+            "ico": "00246B74.png",
+            "mat":
+            {
+                "00246B74": 1
+            }
+        },
+
+        {
+            "00005580":	"Neodymium",
+            "ico": "00005580.png",
+            "mat":
+            {
+                "00005580": 1
+            }
+        },
+
+        {
+            "00005587":	"Neon",
+            "ico": "00005587.png",
+            "mat":
+            {
+                "00005587": 1
+            }
+        },
+
+        {
+            "00005572":	"Nickel",
+            "ico": "00005572.png",
+            "mat":
+            {
+                "00005572": 1
+            }
+        },
+
+        {
+            "00246B79":	"Nuclear Fuel Rod",
+            "ico": "00246B79.png",
+            "mat":
+            {
+                "00246B79": 1
+            }
+        },
+
+        {
+            "000777FD":	"Nutrient",
+            "ico": "000777FD.png",
+            "mat":
+            {
+                "000777FD": 1
+            }
+        },
+
+        {
+            "000055A7":	"Ornamental Material",
+            "ico": "000055A7.png",
+            "mat":
+            {
+                "000055A7": 1
+            }
+        },
+
+        {
+            "00005574":	"Palladium",
+            "ico": "00005574.png",
+            "mat":
+            {
+                "00005574": 1
+            }
+        },
+
+        {
+            "00246B73":	"Paramagnon Conductor",
+            "ico": "00246B73.png",
+            "mat":
+            {
+                "00246B73": 1
+            }
+        },
+
+        {
+            "0029F400":	"Pigment",
+            "ico": "0029F400.png",
+            "mat":
+            {
+                "0029F400": 1
+            }
+        },
+
+        {
+            "00005573":	"Platinum",
+            "ico": "00005573.png",
+            "mat":
+            {
+                "00005573": 1
+            }
+        },
+
+        {
+            "0000558C": "Plutonium",
+            "ico": "0000558C.png",
+            "mat":
+            {
+                "0000558C": 1
+            }
+        },
+
+        {
+            "000055A6":	"Polymer",
+            "ico": "000055A6.png",
+            "mat":
+            {
+                "000055A6": 1
+            }
+        },
+
+        {
+            "00246B72":	"Polytextile",
+            "ico": "00246B72.png",
+            "mat":
+            {
+                "00246B72": 1
+            }
+        },
+
+        {
+            "0029B039": "Poultry",
+            "ico": "0029B039.png",
+            "mat":
+            {
+                "0029B039": 1
+            }
+        },
+
+        {
+            "00246B71":	"Positron Battery",
+            "ico": "00246B71.png",
+            "mat":
+            {
+                "00246B71": 1
+            }
+        },
+
+        {
+            "00246B5C":	"Power Circuit",
+            "ico": "00246B5C.png",
+            "mat":
+            {
+                "00246B5C": 1
+            }
+        },
+
+        {
+            "00122EB8":	"Quark-Degenerate Tissues",
+            "ico": "",
+            "mat":
+            {
+                "00122EB8": 1
+            }
+        },
+
+        {
+            "00246B6F":	"Reactive Gauge",
+            "ico": "00246B6F.png",
+            "mat":
+            {
+                "00246B6F": 1
+            }
+        },
+
+        {
+            "0029B03B": "Red Meat",
+            "ico": "0029B03B.png",
+            "mat":
+            {
+                "0029B03B": 1
+            }
+        },
+
+        {
+            "000028DF":	"Rothicite",
+            "ico": "000028DF.png",
+            "mat":
+            {
+                "000028DF": 1
+            }
+        },
+
+        {
+            "00203EB2":	"Rothicite Magnet",
+            "ico": "00203EB2.png",
+            "mat":
+            {
+                "00203EB2": 1
+            }
+        },
+
+        {
+            "000055CC":	"Sealant",
+            "ico": "000055CC.png",
+            "mat":
+            {
+                "000055CC": 1
+            }
+        },
+
+        {
+            "000055AD":	"Sedative",
+            "ico": "000055AD.png",
+            "mat":
+            {
+                "000055AD": 1
+            }
+        },
+
+        {
+            "00246B6D":	"Semimetal Wafer",
+            "ico": "00246B6D.png",
+            "mat":
+            {
+                "00246B6D": 1
+            }
+        },
+
+        {
+            "0000556A":	"Silver",
+            "ico": "0000556A.png",
+            "mat":
+            {
+                "0000556A": 1
+            }
+        },
+
+        {
+            "000055CE":	"Solvent",
+            "ico": "000055CE.png",
+            "mat":
+            {
+                "000055CE": 1
+            }
+        },
+
+        {
+            "000055AC":	"Spice",
+            "ico": "000055AC.png",
+            "mat":
+            {
+                "000055AC": 1
+            }
+        },
+
+        {
+            "002A9DE7": "Squall",
+            "ico": "002A9DE7.png",
+            "mat":
+            {
+                "002A9DE7": 1
+            }
+        },
+
+        {
+            "00246B6C":	"Sterile Nanotubes",
+            "ico": "00246B6C.png",
+            "mat":
+            {
+                "00246B6C": 1
+            }
+        },
+
+        {
+            "000055AE":	"Stimulant",
+            "ico": "000055AE.png",
+            "mat":
+            {
+                "000055AE": 1
+            }
+        },
+
+        {
+            "000055B9":	"Structural Material",
+            "ico": "000055B9.png",
+            "mat":
+            {
+                "000055B9": 1
+            }
+        },
+
+        {
+            "00122EB1": "Subgiant Heart",
+            "ico": "00122EB1.png",
+            "mat":
+            {
+                "00122EB1": 1
+            }
+        },
+
+        {
+            "00202782":	"Substrate Molecule Sieve",
+            "ico": "00202782.png",
+            "mat":
+            {
+                "00202782": 1
+            }
+        },
+
+        {
+            "00246B69":	"Supercooled Magnet",
+            "ico": "00246B69.png",
+            "mat":
+            {
+                "00246B69": 1
+            }
+        },
+
+        {
+            "002C5880": "Synapse Alpha",
+            "ico": "002C5880.png",
+            "mat":
+            {
+                "002C5880": 1
+            }
+        },
+
+        {
+            "0000556F":	"Tantalum",
+            "ico": "0000556F.png",
+            "mat":
+            {
+                "0000556F": 1
+            }
+        },
+
+        {
+            "00005DED":	"Tasine",
+            "ico": "00005DED.png",
+            "mat":
+            {
+                "00005DED": 1
+            }
+        },
+
+        {
+            "00203EAF":	"Tasine Superconductor",
+            "ico": "00203EAF.png",
+            "mat":
+            {
+                "00203EAF": 1
+            }
+        },
+
+        {
+            "00246B68":	"Tau Grade Rheostat",
+            "ico": "00246B68.png",
+            "mat":
+            {
+                "00246B68": 1
+            }
+        },
+
+        {
+            "00005578":	"Tetrafluorides",
+            "ico": "00005578.png",
+            "mat":
+            {
+                "00005578": 1
+            }
+        },
+
+        {
+            "0000556D":	"Titanium",
+            "ico": "0000556D.png",
+            "mat":
+            {
+                "0000556D": 1
+            }
+        },
+
+        {
+            "003B7117": "Tranquilitea Sunray",
+            "ico": "003B7117.png",
+            "mat":
+            {
+                "003B7117": 1
+            }
+        },
+
+        {
+            "0029A847": "Trauma Pack",
+            "ico": "0029A847.png",
+            "mat":
+            {
+                "0029A847": 1
+            }
+        },
+
+        {
+            "000055CB":	"Toxin",
+            "ico": "000055CB.png",
+            "mat":
+            {
+                "000055CB": 1
+            }
+        },
+
+        {
+            "0000556B":	"Tungsten",
+            "ico": "0000556B.png",
+            "mat":
+            {
+                "0000556B": 1
+            }
+        },
+
+        {
+            "00005589":	"Uranium",
+            "ico": "00005589.png",
+            "mat":
+            {
+                "00005589": 1
+            }
+        },
+
+        {
+            "0000558B":	"Vanadium",
+            "ico": "0000558B.png",
+            "mat":
+            {
+                "0000558B": 1
+            }
+        },
+
+        {
+            "00005DEE":	"Veryl",
+            "ico": "00005DEE.png",
+            "mat":
+            {
+                "00005DEE": 1
+            }
+        },
+
+        {
+            "00203EB0":	"Veryl-Treated Manifold",
+            "ico": "00203EB0.png",
+            "mat":
+            {
+                "00203EB0": 1
+            }
+        },
+
+        {
+            "00203EBD":	"Veryl Explosive",
+            "ico": "",
+            "mat":
+            {
+                "00203EBD": 1
+            }
+        },
+
+        {
+            "00005DEF":	"Vytinium",
+            "ico": "00005DEF.png",
+            "mat":
+            {
+                "00005DEF": 1
+            }
+        },
+
+        {
+            "00203EB3":	"Vytinium Fuel Rod",
+            "ico": "00203EB3.png",
+            "mat":
+            {
+                "00203EB3": 1
+            }
+        },
+
+        {
+            "00005591":	"Water",
+            "ico": "00005591.png",
+            "mat":
+            {
+                "00005591": 1
+            }
+        },
+
+        {
+            "00143CB2": "Whiteout",
+            "ico": "00143CB2.png",
+            "mat":
+            {
+                "00143CB2": 1
+            }
+        },
+
+        {
+            "000057DD":	"Xenon",
+            "ico": "000057DD.png",
+            "mat":
+            {
+                "000057DD": 1
+            }
+        },
+
+        {
+            "00005571":	"Ytterbium",
+            "ico": "00005571.png",
+            "mat":
+            {
+                "00005571": 1
+            }
+        },
+
+        {
+            "00246B65":	"Zero Wire",
+            "ico": "00246B65.png",
+            "mat":
+            {
+                "00246B65": 1
+            }
+        },
+
+        {
+            "00246B66":	"Zero-G Gimbal",
+            "ico": "00246B66.png",
+            "mat":
+            {
+                "00246B66": 1
+            }
+        }
+    ]
+}

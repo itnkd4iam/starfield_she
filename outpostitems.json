@@ -1,0 +1,6481 @@
+{
+    "_comment": "requires resources.json",
+    
+    "Quest": [
+        {
+            "Armillary": "Armillary",
+            "ico": "Armillary.png",
+            "mat": {
+                "0000556D": 5,
+                "00005580": 3
+            }
+        }
+    ],
+
+    "Extractors": 
+    [
+        [
+            {
+                "ExtractorAir": "Extractor - Liquid Vapor",
+                "ico": "ExtractorAir.png",
+                "mat": {
+                    "000055B0": 4,
+                    "00005585": 3,
+                    "0000557D": 5
+                },
+                "tooltip": "Caesium (Cs), Carboxylic Acids (R-COOH), Chlorosilanes (SiH3Cl), Ionic Liquids (IL), Mercury (Hg), Tasine (Tsn), Water (H2O)"
+            },
+
+            {
+                "ExtractorAir2": "Extractor - Liquid Vapor - Commercial",
+                "ico": "ExtractorAir2.png",
+                "mat": {
+                    "00246B6D": 2,
+                    "00246B6A": 3,
+                    "00246B7C": 1,
+                    "0000556F": 4
+                },
+                "tooltip": "Caesium (Cs), Carboxylic Acids (R-COOH), Chlorosilanes (SiH3Cl), Ionic Liquids (IL), Mercury (Hg), Tasine (Tsn), Water (H2O)"
+            },
+
+            {
+                "ExtractorAir3": "Extractor - Liquid Vapor - Industrial",
+                "ico": "ExtractorAir3.png",
+                "mat": {
+                    "00246B7C": 2,
+                    "00203EB4": 2,
+                    "00246B6A": 5,
+                    "0000556F": 6
+                },
+                "tooltip": "Caesium (Cs), Carboxylic Acids (R-COOH), Chlorosilanes (SiH3Cl), Ionic Liquids (IL), Mercury (Hg), Tasine (Tsn), Water (H2O)"
+            }
+        ],
+
+        [   
+            {
+                "ExtractorGas": "Extractor - Natural Gas",
+                "ico": "ExtractorGas.png",
+                "mat": {
+                    "00005576": 3,
+                    "0000557D": 5,
+                    "00005572": 4
+                },
+                "_tooltip": "Alkanes (HnCn), Argon (Ar), Benzene (C6Hn), Chlorine (Cl), Fluorine (F), Helium-3 (He-3), Neon (Ne), Tetrafluorides (xF4), Veryl (Vr), Xenon (Xe)",
+                "tooltip": "Alkanes (HnCn), Argon (Ar), Benzene (C6Hn), Chlorine (Cl), Fluorine (F), Helium-3 (He-3), Neon (Ne), Veryl (Vr), Xenon (Xe)"
+            },
+
+            {
+                "ExtractorGas2": "Extractor - Natural Gas - Commercial",
+                "ico": "ExtractorGas2.png",
+                "mat": {
+                    "0000558B": 4,
+                    "00246B6A": 3,
+                    "00246B75": 2,
+                    "00246B6F": 2
+                },
+                "tooltip": "Alkanes (HnCn), Argon (Ar), Benzene (C6Hn), Chlorine (Cl), Fluorine (F), Helium-3 (He-3), Neon (Ne), Veryl (Vr), Xenon (Xe)"
+            },
+
+            {
+                "ExtractorGas3": "Extractor - Natural Gas - Industrial",
+                "ico": "ExtractorGas3.png",
+                "mat": {
+                    "00202782": 2,
+                    "00246B6A": 5,
+                    "0000558B": 6,
+                    "00246B6F": 3
+                },
+                "tooltip": "Alkanes (HnCn), Argon (Ar), Benzene (C6Hn), Chlorine (Cl), Fluorine (F), Helium-3 (He-3), Neon (Ne), Veryl (Vr), Xenon (Xe)"
+            }
+        ],
+
+        [   
+            {
+                "ExtractorGas": "Extractor - Tetrafluorides (xF4)",
+                "ico": "ExtractorGas.png",
+                "mat": {
+                    "0000557D": 5,
+                    "00005572": 4,
+                    "0000556E": 3
+                }
+            },
+
+            {
+                "ExtractorGas2": "Extractor - Tetrafluorides (xF4) - Commercial",
+                "ico": "ExtractorGas2.png",
+                "mat": {
+                    "00246B7C": 3,
+                    "00246B6A": 3,
+                    "00246B75": 2,
+                    "0000556D": 4
+
+                }
+            },
+
+            {
+                "ExtractorGas3": "Extractor - Tetrafluorides (xF4) - Industrial",
+                "ico": "ExtractorGas3.png",
+                "mat": {
+                    "0000556D": 6,
+                    "00202782": 2,
+                    "00246B6A": 5,
+                    "00203EB0": 3
+                }
+            }
+        ],
+
+        [   
+            {
+                "ExtractorSolid": "Extractor - Solid",
+                "ico": "ExtractorSolid.png",
+                "mat": {
+                    "0000556B": 2,
+                    "0000557D": 4,
+                    "0000556E": 5
+                },
+                "tooltip": "Aldumite (Ad), Aluminum (Al), Antimony (Sb), Aqueous Hematite (Aq), Beryllium (Be), Caelumite (Ct), Cobalt (Co), Copper (Cu), Dysprosium (Dy), Europium (Eu), Gold (Au), Indicite (Ie), Iridium (Ir), Iron (Fe), Lead (Pb), Lithium (Li), Neodymium (Nd), Nickel (Ni), Palladium (Pd), Platinum (Pt), Plutonium (Pu), Rothicite (Rc), Silver (Ag), Tantalum (Ta), Titanium (Ti), Tungsten (W), Uranium (U), Vanadium (V), Vytinium (Vy), Ytterbium (Yb)"
+            },
+
+            {
+                "ExtractorSolid2": "Extractor - Solid - Commercial",
+                "ico": "ExtractorSolid2.png",
+                "mat": {
+                    "0000556B": 4,
+                    "0020A02F": 1,
+                    "00246B6A": 3,
+                    "00246B76": 2
+                },
+                "tooltip": "Aldumite (Ad), Aluminum (Al), Antimony (Sb), Aqueous Hematite (Aq), Beryllium (Be), Caelumite (Ct), Cobalt (Co), Copper (Cu), Dysprosium (Dy), Europium (Eu), Gold (Au), Indicite (Ie), Iridium (Ir), Iron (Fe), Lead (Pb), Lithium (Li), Neodymium (Nd), Nickel (Ni), Palladium (Pd), Platinum (Pt), Plutonium (Pu), Rothicite (Rc), Silver (Ag), Tantalum (Ta), Titanium (Ti), Tungsten (W), Uranium (U), Vanadium (V), Vytinium (Vy), Ytterbium (Yb)"
+            },
+
+            {
+                "ExtractorSolid3": "Extractor - Solid - Industrial",
+                "ico": "ExtractorSolid3.png",
+                "mat": {
+                    "0000556B": 6,
+                    "00202F5A": 1,
+                    "00246B6A": 5,
+                    "00246B76": 4
+                },
+                "tooltip": "Aldumite (Ad), Aluminum (Al), Antimony (Sb), Aqueous Hematite (Aq), Beryllium (Be), Caelumite (Ct), Cobalt (Co), Copper (Cu), Dysprosium (Dy), Europium (Eu), Gold (Au), Indicite (Ie), Iridium (Ir), Iron (Fe), Lead (Pb), Lithium (Li), Neodymium (Nd), Nickel (Ni), Palladium (Pd), Platinum (Pt), Plutonium (Pu), Rothicite (Rc), Silver (Ag), Tantalum (Ta), Titanium (Ti), Tungsten (W), Uranium (U), Vanadium (V), Vytinium (Vy), Ytterbium (Yb)"
+            }
+        ],
+
+        [
+            {
+                "ExtractorLiquid": "Extractor - Liquid",
+                "ico": "ExtractorLiquid.png",
+                "mat": {
+                    "0000556E": 3,
+                    "00005572": 4,
+                    "0000557D": 5
+                },
+                "tooltip": "Caesium (Cs), Carboxylic Acids (R-COOH), Chlorosilanes (SiH3Cl), Ionic Liquids (IL), Mercury (Hg), Tasine (Tsn), Water (H2O)"
+            },
+
+            {
+                "ExtractorLiquid2": "Extractor - Liquid - Commercial",
+                "ico": "ExtractorLiquid2.png",
+                "mat": {
+                    "00246B6A": 3,
+                    "00246B75": 2,
+                    "00246B7C": 3,
+                    "0000556D": 4
+                },
+                "tooltip": "Caesium (Cs), Carboxylic Acids (R-COOH), Chlorosilanes (SiH3Cl), Ionic Liquids (IL), Mercury (Hg), Tasine (Tsn), Water (H2O)"
+            },
+
+            {
+                "ExtractorLiquid3": "Extractor - Liquid - Industrial",
+                "ico": "ExtractorLiquid3.png",
+                "mat": {
+                    "00202782": 2,
+                    "00246B6A": 5,
+                    "0000556D": 6,
+                    "00203EB0": 3
+                },
+                "tooltip": "Caesium (Cs), Carboxylic Acids (R-COOH), Chlorosilanes (SiH3Cl), Ionic Liquids (IL), Mercury (Hg), Tasine (Tsn), Water (H2O)"
+            }
+        ]
+    ],
+
+    "Power": [
+        {
+            "SolarArray":   "Solar Array",
+            "ico": "SolarArray.png",
+            "mat": {
+                "00005576": 3,
+                "000057D9": 2,
+                "0000557D": 4
+            }
+        },
+
+        {
+            "SolarDome":    "Solar Dome",
+            "ico": "SolarDome.png",
+            "mat": {
+                "0000557D": 4,
+                "00246B68": 2
+            }
+        },
+
+        {
+            "WindTurbine": "Wind Turbine",
+            "ico": "WindTurbine.png",
+            "mat": {
+                "00005575": 2,
+                "0000557D": 5,
+                "00005572": 3
+            }
+        },
+
+        {
+            "WindTurbine2": "Wind Turbine - Advanced",
+            "ico": "WindTurbine2.png",
+            "mat": {
+                "0000557D": 5,
+                "00246B77": 2
+            }
+        },
+
+        {
+            "FueledGenerator": "Fueled Generator",
+            "ico": "FueledGenerator.png",
+            "mat": {
+                "00246B7C": 1,
+                "00246B68": 1,
+                "0000556B": 4,
+                "00246B77": 1
+            }
+        },
+
+        {
+            "Reactor": "Reactor",
+            "ico": "Reactor.png",
+            "mat": {
+                "00246B7B": 3,
+                "00246B69": 5,
+                "00246B68": 3,
+                "00246B73": 4,
+                "00246B6A": 6,
+                "00246B79": 8,
+                "00005568": 10
+            }
+        },
+
+        {
+            "Reactor2": "Reactor - Advanced",
+            "ico": "Reactor2.png",
+            "mat": {
+                "00246B5C": 3,
+                "00203EAF": 4,
+                "00246B7B": 5,
+                "00203EB3": 8,
+                "00246B6A": 10,
+                "00203EB2": 5,
+                "00005568": 20
+            }
+        },
+
+        {
+            "PoweredSwitch": "Powered Switch",
+            "ico": "PoweredSwitch.png",
+            "mat": {
+                "00005576": 2,
+                "0000557D": 2
+            }
+        },
+
+        [
+            {
+                "IndustrialLightPost1": "Industrial Light Post",
+                "ico": "IndustrialLightPost1.png",
+                "mat": {
+                    "000057DD": 4,
+                    "00246B65": 3,
+                    "00246B6A": 4
+                }
+            },
+
+            {
+                "IndustrialLightPost2": "Industrial Light Post",
+                "ico": "IndustrialLightPost2.png",
+                "mat": {
+                    "000057DD": 4,
+                    "00246B65": 3,
+                    "00246B6A": 4
+                }
+            }
+        ],
+
+        [
+            {
+                "LightPost1": "Light Post",
+                "ico": "LightPost1.png",
+                "mat": {
+                    "00005576": 3,
+                    "000057DD": 2,
+                    "0000557D": 4
+                }
+            },
+
+            {
+                "LightPost2": "Light Post",
+                "ico": "LightPost2.png",
+                "mat": {
+                    "00005576": 3,
+                    "000057DD": 2,
+                    "0000557D": 4
+                }
+            },
+
+            {
+                "LightPost3": "Light Post",
+                "ico": "LightPost3.png",
+                "mat": {
+                    "00005576": 3,
+                    "000057DD": 2,
+                    "0000557D": 4
+                }
+            },
+
+            {
+                "LightPost4": "Light Post",
+                "ico": "LightPost4.png",
+                "mat": {
+                    "00005576": 3,
+                    "000057DD": 2,
+                    "0000557D": 4
+                }
+            }
+        ],
+
+        [
+            {
+                "IndustrialWallLight": "Industrial Wall Light",
+                "ico": "IndustrialWallLight.png",
+                "mat": {
+                    "00005588": 1,
+                    "00005576": 1,
+                    "0000557D": 1
+                }
+            },
+
+            {
+                "IndustrialWallLight2": "Industrial Wall Light",
+                "ico": "IndustrialWallLight2.png",
+                "mat": {
+                    "00005588": 1,
+                    "00005576": 1,
+                    "0000557D": 1
+                }
+            },
+
+            {
+                "IndustrialWallLight3": "Industrial Wall Light",
+                "ico": "IndustrialWallLight3.png",
+                "mat": {
+                    "00005588": 1,
+                    "00005576": 1,
+                    "0000557D": 1
+                }
+            }
+        ]
+    ],
+
+    "Storage":
+    [
+        {
+            "TransferContainer": "Transfer Container",
+            "ico": "TransferContainer.png",
+            "mat": {
+                "000055BA": 4,
+                "0000556E": 8,
+                "0000556B": 5
+            }
+        },
+
+        [
+            {
+                "StorageSolid": "Storage - Small - Solid",
+                "ico": "StorageSolid.png",
+                "mat": {
+                    "00246B6A": 3,
+                    "0000557D": 5,
+                    "0000556E": 6
+                },
+                "tooltip": "Aldumite (Ad), Aluminum (Al), Antimony (Sb), Aqueous Hematite (Aq), Beryllium (Be), Caelumite (Ct), Cobalt (Co), Copper (Cu), Dysprosium (Dy), Europium (Eu), Gold (Au), Indicite (Ie), Iridium (Ir), Iron (Fe), Lead (Pb), Lithium (Li), Neodymium (Nd), Nickel (Ni), Palladium (Pd), Platinum (Pt), Plutonium (Pu), Rothicite (Rc), Silver (Ag), Tantalum (Ta), Titanium (Ti), Tungsten (W), Uranium (U), Vanadium (V), Vytinium (Vy), Ytterbium (Yb)"
+            },
+
+            {
+                "StorageSolid2": "Storage - Medium - Solid",
+                "ico": "StorageSolid2.png",
+                "mat": {
+                    "00246B6A": 5,
+                    "0000557D": 8,
+                    "0000556E": 10
+                },
+                "tooltip": "Aldumite (Ad), Aluminum (Al), Antimony (Sb), Aqueous Hematite (Aq), Beryllium (Be), Caelumite (Ct), Cobalt (Co), Copper (Cu), Dysprosium (Dy), Europium (Eu), Gold (Au), Indicite (Ie), Iridium (Ir), Iron (Fe), Lead (Pb), Lithium (Li), Neodymium (Nd), Nickel (Ni), Palladium (Pd), Platinum (Pt), Plutonium (Pu), Rothicite (Rc), Silver (Ag), Tantalum (Ta), Titanium (Ti), Tungsten (W), Uranium (U), Vanadium (V), Vytinium (Vy), Ytterbium (Yb)"
+            },
+
+            {
+                "StorageSolid3": "Storage - Large - Solid",
+                "ico": "StorageSolid3.png",
+                "mat": {
+                    "0000556E": 20,
+                    "00246B6A": 10,
+                    "0000557D": 16
+                },
+                "tooltip": "Aldumite (Ad), Aluminum (Al), Antimony (Sb), Aqueous Hematite (Aq), Beryllium (Be), Caelumite (Ct), Cobalt (Co), Copper (Cu), Dysprosium (Dy), Europium (Eu), Gold (Au), Indicite (Ie), Iridium (Ir), Iron (Fe), Lead (Pb), Lithium (Li), Neodymium (Nd), Nickel (Ni), Palladium (Pd), Platinum (Pt), Plutonium (Pu), Rothicite (Rc), Silver (Ag), Tantalum (Ta), Titanium (Ti), Tungsten (W), Uranium (U), Vanadium (V), Vytinium (Vy), Ytterbium (Yb)"
+            }
+        ],
+
+        [
+            {
+                "StorageLiquid": "Storage - Small - Liquid",
+                "ico": "StorageLiquid.png",
+                "mat": {
+                    "00246B6A": 3,
+                    "00005572": 5,
+                    "0000557D": 6
+                },
+                "tooltip": "Caesium (Cs), Carboxylic Acids (R-COOH), Chlorosilanes (SiH3Cl), Ionic Liquids (IL), Mercury (Hg), Tasine (Tsn), Water (H2O)"
+            },
+
+            {
+                "StorageLiquid2": "Storage - Medium - Liquid",
+                "ico": "StorageLiquid2.png",
+                "mat": {
+                    "00246B6A": 5,
+                    "00005572": 8,
+                    "0000557D": 10
+                },
+                "tooltip": "Caesium (Cs), Carboxylic Acids (R-COOH), Chlorosilanes (SiH3Cl), Ionic Liquids (IL), Mercury (Hg), Tasine (Tsn), Water (H2O)"
+            },
+
+            {
+                "StorageLiquid3": "Storage - Large - Liquid",
+                "ico": "StorageLiquid3.png",
+                "mat": {
+                    "00005572": 16,
+                    "0000557D": 20,
+                    "00246B6A": 10
+                },
+                "tooltip": "Caesium (Cs), Carboxylic Acids (R-COOH), Chlorosilanes (SiH3Cl), Ionic Liquids (IL), Mercury (Hg), Tasine (Tsn), Water (H2O)"
+            }
+        ],
+
+        [
+            {
+                "StorageGas": "Storage - Small - Gas",
+                "ico": "StorageGas.png",
+                "mat": {
+                    "00005576": 6,
+                    "0000556B": 5,
+                    "00246B6A": 3
+                },
+                "tooltip": "Alkanes (HnCn), Argon (Ar), Benzene (C6Hn), Chlorine (Cl), Fluorine (F), Helium-3 (He-3), Neon (Ne), Tetrafluorides (xF4), Veryl (Vr), Xenon (Xe)"
+            },
+
+            {
+                "StorageGas2": "Storage - Medium - Gas",
+                "ico": "StorageGas2.png",
+                "mat": {
+                    "00005576": 10,
+                    "0000556B": 8,
+                    "00246B6A": 5
+                },
+                "tooltip": "Alkanes (HnCn), Argon (Ar), Benzene (C6Hn), Chlorine (Cl), Fluorine (F), Helium-3 (He-3), Neon (Ne), Tetrafluorides (xF4), Veryl (Vr), Xenon (Xe)"
+            },
+
+            {
+                "StorageGas3": "Storage - Large - Gas",
+                "ico": "StorageGas3.png",
+                "mat": {
+                    "00005576": 20,
+                    "00246B6A": 10,
+                    "0000556B": 16
+                },
+                "tooltip": "Alkanes (HnCn), Argon (Ar), Benzene (C6Hn), Chlorine (Cl), Fluorine (F), Helium-3 (He-3), Neon (Ne), Tetrafluorides (xF4), Veryl (Vr), Xenon (Xe)"
+            }
+        ],
+
+        [
+            {
+                "WarehouseSmall": "Warehouse - Small",
+                "ico": "WarehouseSmall.png",
+                "mat": {
+                    "0000556D": 5,
+                    "00246B6A": 3,
+                    "0000557D": 6
+                }
+            },
+
+            {
+                "WarehouseMedium": "Warehouse - Medium",
+                "ico": "WarehouseMedium.png",
+                "mat": {
+                    "0000556D": 8,
+                    "00246B6A": 5,
+                    "0000557D": 10
+                }
+            },
+
+            {
+                "WarehouseLarge": "Warehouse - Large",
+                "ico": "WarehouseLarge.png",
+                "mat": {
+                    "0000556D": 16,
+                    "0000557D": 20,
+                    "00246B6A": 10
+                }
+            }
+        ]
+    ],
+
+    "Builders":
+    [
+        [
+            {
+                "SimpleFabricator1": "Simple Fabricator",
+                "ico": "SimpleFabricator1.png",
+                "mat":
+                {
+                    "00246B65": 3,
+                    "0000557D": 8,
+                    "0000556B": 4,
+                    "000055CC": 2
+                },
+                "out": "00246B6A"
+            },
+
+            {
+                "SimpleFabricator2": "Simple Fabricator",
+                "ico": "SimpleFabricator2.png",
+                "mat":
+                {
+                    "00246B65": 3,
+                    "0000557D": 8,
+                    "0000556B": 4,
+                    "000055CC": 2
+                },
+                "out": "00246B7C"
+            },
+
+            {
+                "SimpleFabricator3": "Simple Fabricator",
+                "ico": "SimpleFabricator3.png",
+                "mat":
+                {
+                    "00246B65": 3,
+                    "0000557D": 8,
+                    "0000556B": 4,
+                    "000055CC": 2
+                },
+                "out": "00246B64"
+            },
+
+            {
+                "SimpleFabricator4": "Simple Fabricator",
+                "ico": "SimpleFabricator4.png",
+                "mat":
+                {
+                    "00246B65": 3,
+                    "0000557D": 8,
+                    "0000556B": 4,
+                    "000055CC": 2
+                },
+                "out": "00246B77"
+            },
+
+            {
+                "SimpleFabricator5": "Simple Fabricator",
+                "ico": "SimpleFabricator5.png",
+                "mat":
+                {
+                    "00246B65": 3,
+                    "0000557D": 8,
+                    "0000556B": 4,
+                    "000055CC": 2
+                },
+                "out": "00246B76"
+            },
+
+            {
+                "SimpleFabricator6": "Simple Fabricator",
+                "ico": "SimpleFabricator6.png",
+                "mat":
+                {
+                    "00246B65": 3,
+                    "0000557D": 8,
+                    "0000556B": 4,
+                    "000055CC": 2
+                },
+                "out": "00246B70"
+            },
+
+            {
+                "SimpleFabricator7": "Simple Fabricator",
+                "ico": "SimpleFabricator7.png",
+                "mat":
+                {
+                    "00246B65": 3,
+                    "0000557D": 8,
+                    "0000556B": 4,
+                    "000055CC": 2
+                },
+                "out": "00246B74"
+            },
+
+            {
+                "SimpleFabricator8": "Simple Fabricator",
+                "ico": "SimpleFabricator8.png",
+                "mat":
+                {
+                    "00246B65": 3,
+                    "0000557D": 8,
+                    "0000556B": 4,
+                    "000055CC": 2
+                },
+                "out": "00246B72"
+            },
+
+            {
+                "SimpleFabricator9": "Simple Fabricator",
+                "ico": "SimpleFabricator9.png",
+                "mat":
+                {
+                    "00246B65": 3,
+                    "0000557D": 8,
+                    "0000556B": 4,
+                    "000055CC": 2
+                },
+                "out": "00246B6F"
+            },
+
+            {
+                "SimpleFabricator10": "Simple Fabricator",
+                "ico": "SimpleFabricator10.png",
+                "mat":
+                {
+                    "00246B65": 3,
+                    "0000557D": 8,
+                    "0000556B": 4,
+                    "000055CC": 2
+                },
+                "out": "00246B68"
+            },
+
+            {
+                "SimpleFabricator11": "Simple Fabricator",
+                "ico": "SimpleFabricator11.png",
+                "mat":
+                {
+                    "00246B65": 3,
+                    "0000557D": 8,
+                    "0000556B": 4,
+                    "000055CC": 2
+                },
+                "out": "00246B65"
+            }
+        ],
+
+        [
+            {
+                "CompoundFabricator1": "Compound Fabricator",
+                "ico": "CompoundFabricator1.png",
+                "mat":
+                {
+                    "00246B65": 5,
+                    "00246B76": 2,
+                    "0000556B": 8,
+                    "000055B1": 4
+                },
+                "out": "00246B7B"
+            },
+
+            {
+                "CompoundFabricator2": "Compound Fabricator",
+                "ico": "CompoundFabricator2.png",
+                "mat":
+                {
+                    "00246B65": 5,
+                    "00246B76": 2,
+                    "0000556B": 8,
+                    "000055B1": 4
+                },
+                "out": "0020A02F"
+            },
+
+            {
+                "CompoundFabricator3": "Compound Fabricator",
+                "ico": "CompoundFabricator3.png",
+                "mat":
+                {
+                    "00246B65": 5,
+                    "00246B76": 2,
+                    "0000556B": 8,
+                    "000055B1": 4
+                },
+                "out": "00246B75"
+            },
+
+            {
+                "CompoundFabricator4": "Compound Fabricator",
+                "ico": "CompoundFabricator4.png",
+                "mat":
+                {
+                    "00246B65": 5,
+                    "00246B76": 2,
+                    "0000556B": 8,
+                    "000055B1": 4
+                },
+                "out": "00246B79"
+            },
+
+            {
+                "CompoundFabricator5": "Compound Fabricator",
+                "ico": "CompoundFabricator5.png",
+                "mat":
+                {
+                    "00246B65": 5,
+                    "00246B76": 2,
+                    "0000556B": 8,
+                    "000055B1": 4
+                },
+                "out": "00246B73"
+            },
+
+            {
+                "CompoundFabricator6": "Compound Fabricator",
+                "ico": "CompoundFabricator6.png",
+                "mat":
+                {
+                    "00246B65": 5,
+                    "00246B76": 2,
+                    "0000556B": 8,
+                    "000055B1": 4
+                },
+                "out": "00246B71"
+            },
+
+            {
+                "CompoundFabricator7": "Compound Fabricator",
+                "ico": "CompoundFabricator7.png",
+                "mat":
+                {
+                    "00246B65": 5,
+                    "00246B76": 2,
+                    "0000556B": 8,
+                    "000055B1": 4
+                },
+                "out": "00246B6D"
+            },
+
+            {
+                "CompoundFabricator8": "Compound Fabricator",
+                "ico": "CompoundFabricator8.png",
+                "mat":
+                {
+                    "00246B65": 5,
+                    "00246B76": 2,
+                    "0000556B": 8,
+                    "000055B1": 4
+                },
+                "out": "00246B6C"
+            },
+
+            {
+                "CompoundFabricator9": "Compound Fabricator",
+                "ico": "CompoundFabricator9.png",
+                "mat":
+                {
+                    "00246B65": 5,
+                    "00246B76": 2,
+                    "0000556B": 8,
+                    "000055B1": 4
+                },
+                "out": "00246B69"
+            },
+
+            {
+                "CompoundFabricator10": "Compound Fabricator",
+                "ico": "CompoundFabricator10.png",
+                "mat":
+                {
+                    "00246B65": 5,
+                    "00246B76": 2,
+                    "0000556B": 8,
+                    "000055B1": 4
+                },
+                "out": "00246B66"
+            }
+        ],
+
+        [
+            {
+                "MultiplexFabricator1": "Multiplex Fabricator",
+                "ico": "MultiplexFabricator1.png",
+                "mat":
+                {
+                    "000055A6": 8,
+                    "000055BA": 6,
+                    "0000556D": 8,
+                    "00246B71": 3
+                },
+                "out": "00202F5A"
+            },
+
+            {
+                "MultiplexFabricator2": "Multiplex Fabricator",
+                "ico": "MultiplexFabricator2.png",
+                "mat":
+                {
+                    "000055A6": 8,
+                    "000055BA": 6,
+                    "0000556D": 8,
+                    "00246B71": 3
+                },
+                "out": "00203EB4"
+            },
+
+            {
+                "MultiplexFabricator3": "Multiplex Fabricator",
+                "ico": "MultiplexFabricator3.png",
+                "mat":
+                {
+                    "000055A6": 8,
+                    "000055BA": 6,
+                    "0000556D": 8,
+                    "00246B71": 3
+                },
+                "out": "00246B5F"
+            },
+
+            {
+                "MultiplexFabricator4": "Multiplex Fabricator",
+                "ico": "MultiplexFabricator4.png",
+                "mat":
+                {
+                    "000055A6": 8,
+                    "000055BA": 6,
+                    "0000556D": 8,
+                    "00246B71": 3
+                },
+                "out": "00246B5C"
+            },
+
+            {
+                "MultiplexFabricator5": "Multiplex Fabricator",
+                "ico": "MultiplexFabricator5.png",
+                "mat":
+                {
+                    "000055A6": 8,
+                    "000055BA": 6,
+                    "0000556D": 8,
+                    "00246B71": 3
+                },
+                "out": "00203EB2"
+            },
+
+            {
+                "MultiplexFabricator6": "Multiplex Fabricator",
+                "ico": "MultiplexFabricator6.png",
+                "mat":
+                {
+                    "000055A6": 8,
+                    "000055BA": 6,
+                    "0000556D": 8,
+                    "00246B71": 3
+                },
+                "out": "00202782"
+            },
+
+            {
+                "MultiplexFabricator7": "Multiplex Fabricator",
+                "ico": "MultiplexFabricator7.png",
+                "mat":
+                {
+                    "000055A6": 8,
+                    "000055BA": 6,
+                    "0000556D": 8,
+                    "00246B71": 3
+                },
+                "out": "00203EAF"
+            },
+
+            {
+                "MultiplexFabricator8": "Multiplex Fabricator",
+                "ico": "MultiplexFabricator8.png",
+                "mat":
+                {
+                    "000055A6": 8,
+                    "000055BA": 6,
+                    "0000556D": 8,
+                    "00246B71": 3
+                },
+                "out": "00203EB0"
+            },
+
+            {
+                "MultiplexFabricator9": "Multiplex Fabricator",
+                "ico": "MultiplexFabricator9.png",
+                "mat":
+                {
+                    "000055A6": 8,
+                    "000055BA": 6,
+                    "0000556D": 8,
+                    "00246B71": 3
+                },
+                "out": "00203EB3"
+            }
+        ],
+        
+        [
+            {
+                "AnimalHusbandryFacility": "Animal Husbandry Facility",
+                "ico": "AnimalHusbandryFacility.png",
+                "mat":
+                {
+                    "0000557D": 8,
+                    "000055CC": 3,
+                    "00246B6F": 3,
+                    "00246B6A": 5 
+                }
+            },
+            
+            {
+                "AnimalHusbandryFacility2": "Animal Husbandry Facility - Commercial",
+                "ico": "AnimalHusbandryFacility2.png",
+                "mat":
+                {
+                    "00246B6A": 7,
+                    "0000557D": 12,
+                    "00246B75": 2,
+                    "000055CC": 6
+                }
+            },
+            
+            {
+                "AnimalHusbandryFacility3": "Animal Husbandry Facility - Industrial",
+                "ico": "AnimalHusbandryFacility3.png",
+                "mat":
+                {
+                    "00246B6A": 9,
+                    "0000557D": 16,
+                    "000055CC": 9,
+                    "00202782": 2
+                }
+            }
+        ],
+        
+        [
+            {
+                "Greenhouse": "Greenhouse",
+                "ico": "Greenhouse.png",
+                "mat":
+                {
+                    "00246B6A": 5,
+                    "00005577": 4,
+                    "00246B6F": 3,
+                    "000055CC": 3   
+                }
+            },
+            
+            {
+                "Greenhouse2": "Greenhouse - Commercial",
+                "ico": "Greenhouse2.png",
+                "mat":
+                {
+                    "00246B6A": 7,
+                    "00005577": 8,
+                    "00246B75": 2,
+                    "000055CC": 6
+                }
+            },
+            
+            {
+                "Greenhouse3": "Greenhouse - Industrial",
+                "ico": "Greenhouse3.png",
+                "mat":
+                {
+                    "00246B6A": 9,
+                    "00005577": 12,
+                    "000055CC": 9,
+                    "00202782": 2
+                }
+            }
+        ]
+    ],
+
+    "Structures":
+    [
+        {
+            "OutpostAirlock": "Outpost Airlock",
+            "ico": "OutpostAirlock.png",
+            "mat":
+            {
+                "0000557D": 3,
+                "000055CC": 3,
+                "00005568": 2
+            }
+        },
+
+        [
+            {
+                "FourWallHab1": "Four Wall Hab",
+                "ico": "FourWallHab1.png",
+                "mat":
+                {
+                    "0000557D": 6,
+                    "000055CC": 3,
+                    "00005568": 4
+                }
+            },
+
+            {
+                "FourWallHab2": "Four Wall Hab - Double",
+                "ico": "FourWallHab2.png",
+                "mat":
+                {
+                    "0000557D": 10,
+                    "000055CC": 5,
+                    "00005568": 6
+                }
+            }
+        ],
+
+        [
+            {
+                "HydrophonicHabA": "Hydrophonic Hab A",
+                "ico": "HydrophonicHabA.png",
+                "mat":
+                {
+                    "0000557D": 6,
+                    "000055CC": 3,
+                    "0000556E": 4
+                }
+            },
+
+            {
+                "HydrophonicHabB": "Hydrophonic Hab B",
+                "ico": "HydrophonicHabB.png",
+                "mat":
+                {
+                    "0000557D": 6,
+                    "000055CC": 3,
+                    "0000556E": 4
+                }
+            }
+        ],
+
+        [
+            {
+                "ScienceHab1": "Science Hab - Small",
+                "ico": "ScienceHab1.png",
+                "mat":
+                {
+                    "0000557D": 6,
+                    "000055CC": 3,
+                    "00005568": 4
+                }
+            },
+
+            {
+                "ScienceHab2": "Science Hab Flat Small",
+                "ico": "ScienceHab2.png",
+                "mat":
+                {
+                    "0000557D": 6,
+                    "000055CC": 3,
+                    "00005568": 4
+                }
+            }
+        ],
+
+        {
+            "MilitaryHab": "Military Hab",
+            "ico": "MilitaryHab.png",
+            "mat":
+            {
+                "0000556D": 6,
+                "000055CC": 3,
+                "00005568": 4
+            }
+        },
+
+        [
+            {
+                "HabRound1": "Hab Round",
+                "ico": "HabRound1.png",
+                "mat":
+                {
+                    "0000557D": 8,
+                    "000055CC": 4,
+                    "00005568": 6
+                }
+            },
+
+            {
+                "HabRound2": "Hydrophonic Hab Round",
+                "ico": "HabRound2.png",
+                "mat":
+                {
+                    "0000557D": 8,
+                    "000055CC": 4,
+                    "00005568": 6
+                }
+            }
+        ],
+
+        [
+            {
+                "SmallHexHab": "Small Hex Hab",
+                "ico": "SmallHexHab.png",
+                "mat":
+                {
+                    "0000557D": 8,
+                    "000055CC": 4,
+                    "00005568": 6
+                }
+            },
+
+            {
+                "LargeHexHab": "Large Hex Hab",
+                "ico": "LargeHexHab.png",
+                "mat":
+                {
+                    "0000557D": 14,
+                    "000055CC": 8,
+                    "00005568": 10
+                }
+            }
+        ],
+
+        [
+            {
+                "Hallway1": "Hallway - Industrial",
+                "ico": "Hallway1.png",
+                "mat":
+                {
+                    "0000557D": 2,
+                    "000055CC": 2,
+                    "00005568": 1
+                }
+            },
+
+            {
+                "Hallway2": "Hallway - Military",
+                "ico": "Hallway2.png",
+                "mat":
+                {
+                    "0000557D": 2,
+                    "000055CC": 2,
+                    "00005568": 1
+                }
+            },
+
+            {
+                "Hallway3": "Hallway - Science",
+                "ico": "Hallway3.png",
+                "mat":
+                {
+                    "0000557D": 2,
+                    "000055CC": 2,
+                    "00005568": 1
+                }
+            },
+
+            {
+                "Hallway4": "Hallway - Hydrophonic",
+                "ico": "Hallway4.png",
+                "mat":
+                {
+                    "0000557D": 2,
+                    "000055CC": 2,
+                    "00005568": 1
+                }
+            }
+        ],
+
+        {
+            "Watchtower":  "Watchtower",
+            "ico": "Watchtower.png",
+            "mat":
+            {
+
+                "00005588": 6,
+                "0000557D": 10,
+                "00246B6A": 12,
+                "0000556E": 16
+            }
+        }
+    ],
+
+    "Crafting":
+    [
+        {
+            "IndustrialWorkbench":  "Industrial Workbench",
+            "ico": "IndustrialWorkbench.png",
+            "mat":
+            {
+
+                "0000557D": 4,
+                "0000556E": 3
+            }
+        },
+
+        {
+            "CookingStation":  "Cooking Station",
+            "ico": "CookingStation.png",
+            "mat":
+            {
+
+                "00005576": 3,
+                "00005570": 3,
+                "0000556E": 4
+            }
+        },
+
+        {
+            "PharmaceuticalLab":  "Pharmaceutical Lab",
+            "ico": "PharmaceuticalLab.png",
+            "mat":
+            {
+
+                "00005585": 3,
+                "0000557D": 4,
+                "0000556E": 3,
+                "0000557C": 4
+            }
+        },
+
+        {
+            "WeaponWorkbench":  "Weapon Workbench",
+            "ico": "WeaponWorkbench.png",
+            "mat":
+            {
+
+                "00005572": 2,
+                "000055B1": 3,
+                "0000556E": 4,
+                "000055CC": 3
+            }
+        },
+
+        {
+            "SpacesuitWorkbench":  "Spacesuit Workbench",
+            "ico": "SpacesuitWorkbench.png",
+            "mat":
+            {
+
+                "000055AF": 3,
+                "0000557D": 4,
+                "000055A8": 4
+            }
+        },
+
+        {
+            "ResearchLab":  "Research Lab",
+            "ico": "ResearchLab.png",
+            "mat":
+            {
+
+                "00005576": 2,
+                "0000557D": 4,
+                "000057D9": 2
+            }
+        }
+
+    ],
+
+    "Defenses":
+    [
+        {
+            "BallisticTurret1": "Ballistic Turret Mk I",
+            "ico": "BallisticTurret1.png",
+            "mat":
+            {
+                "0000556E": 4,
+                "000057D9": 2,
+                "00005568": 3
+            }
+        },
+
+        {
+            "BallisticTurret2": "Ballistic Turret Mk II",
+            "ico": "BallisticTurret2.png",
+            "mat":
+            {
+                "0000556D": 4,
+                "000055B1": 2,
+                "0000556B": 3,
+                "00246B65": 2
+            }
+        },
+
+        {
+            "BallisticTurret3": "Ballistic Turret Mk III",
+            "ico": "BallisticTurret3.png",
+            "mat":
+            {
+                "000055BA": 2,
+                "0000556D": 6,
+                "00246B5F": 1,
+                "0000556B": 5,
+                "00246B65": 4
+            }
+        },
+
+        {
+            "TickTurret": "Tick Turret Mk I",
+            "ico": "TickTurret.png",
+            "mat":
+            {
+                "00246B65": 2,
+                "0000557D": 3,
+                "00005577": 2,
+                "0000557C": 1
+            }
+        },
+
+        {
+            "LaserTurret1": "Laser Turret Mk I",
+            "ico": "LaserTurret1.png",
+            "mat":
+            {
+                "0000557D": 4,
+                "00005577": 3,
+                "000057D9": 2,
+                "0000557C": 2
+            }
+        },
+
+        {
+            "LaserTurret2": "Laser Turret Mk II",
+            "ico": "LaserTurret2.png",
+            "mat":
+            {
+                "0000558A": 3,
+                "0000556D": 4,
+                "00246B73": 2,
+                "00246B68": 1
+            }
+        },
+
+        {
+            "LaserTurret3": "Laser Turret Mk III",
+            "ico": "LaserTurret3.png",
+            "mat":
+            {
+                "000057DD": 3,
+                "0000556D": 6,
+                "00246B76": 2,
+                "00203EAF": 2
+            }
+        }
+    ],
+
+    "Robots":
+    [
+        {
+            "SanitationMiniBot": "Sanitation Mini Bot",
+            "ico": "SanitationMiniBot.png",
+            "mat":
+            {
+                "00246B65": 2,
+                "0000557D": 4,
+                "000057D9": 3
+            }
+        },
+
+        {
+            "GardenMiniBot": "Garden Mini Bot",
+            "ico": "GardenMiniBot.png",
+            "mat":
+            {
+                "00246B65": 2,
+                "0000557D": 4,
+                "000057D9": 3
+            }
+        },
+
+        {
+            "SecurityMiniBot": "Security Mini Bot",
+            "ico": "SecurityMiniBot.png",
+            "mat":
+            {
+                "00246B65": 2,
+                "0000557D": 4,
+                "000057D9": 3
+            }
+        },
+
+        {
+            "EngineeringRobot": "Engineering Robot",
+            "ico": "EngineeringRobot.png",
+            "mat":
+            {
+                "000055A6": 4,
+                "0000556D": 4,
+                "00005589": 2,
+                "00246B65": 3,
+                "00246B71": 1
+            }
+        },
+
+        {
+            "LogisticsRobot": "Logistics Robot",
+            "ico": "LogisticsRobot.png",
+            "mat":
+            {
+                "000055A6": 4,
+                "0000556D": 4,
+                "00005589": 2,
+                "00246B65": 3,
+                "00246B71": 1
+            }
+        },
+
+        {
+            "PowerManagementRobot": "Power Management Robot",
+            "ico": "PowerManagementRobot.png",
+            "mat":
+            {
+                "000055A6": 4,
+                "0000556D": 4,
+                "00005589": 2,
+                "00246B65": 3,
+                "00246B71": 1
+            }
+        },
+
+        {
+            "SecurityRobot": "Security Robot",
+            "ico": "SecurityRobot.png",
+            "mat":
+            {
+                "000055A6": 4,
+                "0000556D": 4,
+                "00246B73": 2,
+                "00005589": 2,
+                "00246B71": 1
+            }
+        },
+
+        {
+            "SecurityRobot2": "Security Robot",
+            "ico": "SecurityRobot2.png",
+            "mat":
+            {
+                "000055A6": 5,
+                "0000556D": 6,
+                "0000558C": 2,
+                "00246B73": 3,
+                "00246B5F": 1
+            }
+        }
+    ],
+
+    "Furniture":
+    [
+        [
+            {
+                "Chair": "Chair",
+                "ico": "Chair.png",
+                "mat":
+                {
+                    "000055AF": 2,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "Chair2": "Chair",
+                "ico": "Chair2.png",
+                "mat":
+                {
+                    "000055AF": 2,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "Chair3": "Chair",
+                "ico": "Chair3.png",
+                "mat":
+                {
+                    "000055AF": 2,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "Chair4": "Chair",
+                "ico": "Chair4.png",
+                "mat":
+                {
+                    "000055AF": 2,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "Chair5": "Chair",
+                "ico": "Chair5.png",
+                "mat":
+                {
+                    "000055AF": 2,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "Chair6": "Chair",
+                "ico": "Chair6.png",
+                "mat":
+                {
+                    "000055AF": 2,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "Chair7": "Chair",
+                "ico": "Chair7.png",
+                "mat":
+                {
+                    "000055B1": 1,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "Chair8": "Chair",
+                "ico": "Chair8.png",
+                "mat":
+                {
+                    "000055B1": 1,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "Chair9": "Chair",
+                "ico": "Chair9.png",
+                "mat":
+                {
+                    "000055AF": 2,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "Chair10": "Chair",
+                "ico": "Chair10.png",
+                "mat":
+                {
+                    "000055AF": 2,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "Chair11": "Chair",
+                "ico": "Chair11.png",
+                "mat":
+                {
+                    "000055AF": 2,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "Chair12": "Chair",
+                "ico": "Chair12.png",
+                "mat":
+                {
+                    "000055A6": 2,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "Chair13": "Chair",
+                "ico": "Chair13.png",
+                "mat":
+                {
+                    "000055A6": 2,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "Chair14": "Chair",
+                "ico": "Chair14.png",
+                "mat":
+                {
+                    "000055AF": 2,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "Chair15": "Chair",
+                "ico": "Chair15.png",
+                "mat":
+                {
+                    "000055AF": 2,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "Chair16": "Chair",
+                "ico": "Chair16.png",
+                "mat":
+                {
+                    "000055AF": 2,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "Chair17": "Chair",
+                "ico": "Chair17.png",
+                "mat":
+                {
+                    "000055B1": 1,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "Chair18": "Chair",
+                "ico": "Chair18.png",
+                "mat":
+                {
+                    "000055AF": 2,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "Chair19": "Chair",
+                "ico": "Chair19.png",
+                "mat":
+                {
+                    "00005572": 1,
+                    "000055AF": 2,
+                    "0000557D": 1
+                }
+            },
+
+            {
+                "Chair20": "Chair",
+                "ico": "Chair20.png",
+                "mat":
+                {
+                    "00005572": 1,
+                    "000055AF": 2,
+                    "0000557D": 1
+                }
+            },
+
+            {
+                "Chair21": "Chair",
+                "ico": "Chair21.png",
+                "mat":
+                {
+                    "00005572": 1,
+                    "000055AF": 2,
+                    "0000557D": 1
+                }
+            },
+
+            {
+                "Chair22": "Chair",
+                "ico": "Chair22.png",
+                "mat":
+                {
+                    "000055AF": 2,
+                    "000055B1": 1,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "Chair23": "Chair",
+                "ico": "Chair23.png",
+                "mat":
+                {
+                    "000055B1": 1,
+                    "000055AF": 2,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "Chair24": "Chair",
+                "ico": "Chair24.png",
+                "mat":
+                {
+                    "000055B1": 1,
+                    "000055AF": 2,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "Chair25": "Chair",
+                "ico": "Chair25.png",
+                "mat":
+                {
+                    "000055B1": 2,
+                    "000055CC": 2,
+                    "000055B9": 3
+                }
+            },
+
+            {
+                "Chair26": "Chair",
+                "ico": "Chair26.png",
+                "mat":
+                {
+                    "0000559E": 1,
+                    "000055B1": 2,
+                    "000055B9": 3
+                }
+            },
+
+            {
+                "Chair27": "Chair",
+                "ico": "Chair27.png",
+                "mat":
+                {
+                    "0000559E": 1,
+                    "000055B1": 2,
+                    "000055B9": 3
+                }
+            }
+        ],
+
+        [
+
+            {
+                "Couch1": "Couch",
+                "ico": "Couch1.png",
+                "mat":
+                {
+                    "000055AF": 2,
+                    "0000557D": 3
+                }
+            },
+
+            {
+                "Couch2": "Couch",
+                "ico": "Couch2.png",
+                "mat":
+                {
+                    "000055AF": 2,
+                    "0000557D": 3
+                }
+            },
+
+            {
+                "Couch3": "Couch",
+                "ico": "Couch3.png",
+                "mat":
+                {
+                    "000055AF": 2,
+                    "0000557D": 3
+                }
+            },
+
+            {
+                "Couch4": "Couch",
+                "ico": "Couch4.png",
+                "mat":
+                {
+                    "000055AF": 2,
+                    "0000557D": 3
+                }
+            },
+
+            {
+                "Couch5": "Couch",
+                "ico": "Couch5.png",
+                "mat":
+                {
+                    "000055AF": 2,
+                    "000055B9": 3
+                }
+            },
+
+            {
+                "Couch6": "Couch",
+                "ico": "Couch6.png",
+                "mat":
+                {
+                    "000055AF": 2,
+                    "000055B9": 3
+                }
+            },
+
+            {
+                "Couch7": "Couch",
+                "ico": "Couch7.png",
+                "mat":
+                {
+                    "0000556D": 3,
+                    "000055AF": 2
+                }
+            },
+
+            {
+                "Couch8": "Fancy Sofa",
+                "ico": "Couch8.png",
+                "mat":
+                {
+                    "0000559E": 2,
+                    "000055B1": 2,
+                    "000055B9": 3
+                }
+            }
+        ],
+
+        [
+            {
+                "Couch2_1": "Couch",
+                "ico": "Couch2_1.png",
+                "mat":
+                {
+                    "0000559E": 2,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "Couch2_2": "Couch",
+                "ico": "Couch2_2.png",
+                "mat":
+                {
+                    "0000559E": 2,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "Couch2_3": "Couch",
+                "ico": "Couch2_3.png",
+                "mat":
+                {
+                    "0000559E": 2,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "Couch2_4": "Couch",
+                "ico": "Couch2_4.png",
+                "mat":
+                {
+                    "0000559E": 2,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "Couch2_5": "Couch",
+                "ico": "Couch2_5.png",
+                "mat":
+                {
+                    "0000559E": 2,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "Couch2_6": "Couch",
+                "ico": "Couch2_6.png",
+                "mat":
+                {
+                    "0000559E": 2,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "Couch2_7": "Couch",
+                "ico": "Couch2_7.png",
+                "mat":
+                {
+                    "0000559E": 2,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "Couch2_8": "Couch",
+                "ico": "Couch2_8.png",
+                "mat":
+                {
+                    "0000559E": 2,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "Couch2_9": "Couch",
+                "ico": "Couch2_9.png",
+                "mat":
+                {
+                    "0000559E": 2,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "Couch2_10": "Couch",
+                "ico": "Couch2_10.png",
+                "mat":
+                {
+                    "0000559E": 2,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "Couch2_11": "Couch",
+                "ico": "Couch2_11.png",
+                "mat":
+                {
+                    "0000559E": 2,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "Couch2_12": "Couch",
+                "ico": "Couch2_12.png",
+                "mat":
+                {
+                    "0000559E": 2,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "Couch2_13": "Couch",
+                "ico": "Couch2_13.png",
+                "mat":
+                {
+                    "0000559E": 2,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "Couch2_14": "Couch",
+                "ico": "Couch2_14.png",
+                "mat":
+                {
+                    "0000559E": 2,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "Couch2_15": "Couch",
+                "ico": "Couch2_15.png",
+                "mat":
+                {
+                    "0000559E": 2,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "Couch2_16": "Couch",
+                "ico": "Couch2_16.png",
+                "mat":
+                {
+                    "0000559E": 2,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "Couch2_17": "Couch",
+                "ico": "Couch2_17.png",
+                "mat":
+                {
+                    "0000559E": 2,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "Couch2_18": "Couch",
+                "ico": "Couch2_18.png",
+                "mat":
+                {
+                    "0000559E": 2,
+                    "000055B9": 2
+                }
+            }
+        ],
+
+        [
+            {
+                "Bench": "Bench",
+                "ico": "Bench.png",
+                "mat":
+                {
+                    "0000556E": 1,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "Bench2": "Bench",
+                "ico": "Bench2.png",
+                "mat":
+                {
+                    "0000556E": 1,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "Bench3": "Bench",
+                "ico": "Bench3.png",
+                "mat":
+                {
+                    "0000556E": 1,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "Bench4": "Bench",
+                "ico": "Bench4.png",
+                "mat":
+                {
+                    "000055AF": 2,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "Bench5": "Bench",
+                "ico": "Bench5.png",
+                "mat":
+                {
+                    "000055AF": 2,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "Bench6": "Bench",
+                "ico": "Bench6.png",
+                "mat":
+                {
+                    "000055AF": 2,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "Bench7": "Bench",
+                "ico": "Bench7.png",
+                "mat":
+                {
+                    "0000556E": 1,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "Bench8": "Bench",
+                "ico": "Bench8.png",
+                "mat":
+                {
+                    "0000556E": 1,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "Bench9": "Bench",
+                "ico": "Bench9.png",
+                "mat":
+                {
+                    "0000556E": 1,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "Bench10": "Bench",
+                "ico": "Bench10.png",
+                "mat":
+                {
+                    "0000556E": 1,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "Bench11": "Bench",
+                "ico": "Bench11.png",
+                "mat":
+                {
+                    "000055AF": 2,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "Bench12": "Bench",
+                "ico": "Bench12.png",
+                "mat":
+                {
+                    "000055AF": 2,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "Bench13": "Bench",
+                "ico": "Bench13.png",
+                "mat":
+                {
+                    "000055AF": 2,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "Bench14": "Bench",
+                "ico": "Bench14.png",
+                "mat":
+                {
+                    "000055AF": 2,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "Chair4_1": "Chair",
+                "ico": "Chair4_1.png",
+                "mat":
+                {
+                    "00005572": 1,
+                    "000055A6": 2,
+                    "0000557D": 1
+                }
+            },
+
+            {
+                "Bench16": "Bench",
+                "ico": "Bench14.png",
+                "mat":
+                {
+                    "00005572": 1,
+                    "000055A6": 2,
+                    "0000557D": 1
+                }
+            },
+
+            {
+                "Bench17": "Bench",
+                "ico": "Bench17.png",
+                "mat":
+                {
+                    "00005572": 1,
+                    "000055A6": 2,
+                    "0000557D": 1
+                }
+            },
+
+            {
+                "Bench18": "Bench",
+                "ico": "Bench18.png",
+                "mat":
+                {
+                    "00005572": 1,
+                    "000055A6": 2,
+                    "0000557D": 1
+                }
+            },
+
+            {
+                "Bench19": "Bench",
+                "ico": "Bench19.png",
+                "mat":
+                {
+                    "000055A6": 2,
+                    "0000556D": 2
+                }
+            },
+
+            {
+                "Bench20": "Bench",
+                "ico": "Bench20.png",
+                "mat":
+                {
+                    "000055A6": 2,
+                    "0000556D": 2
+                }
+            },
+
+            {
+                "Bench21": "Bench",
+                "ico": "Bench21.png",
+                "mat":
+                {
+                    "0000556D": 2,
+                    "0000556E": 2
+                }
+            },
+
+            {
+                "Bench22": "Bench",
+                "ico": "Bench22.png",
+                "mat":
+                {
+                    "0000556D": 2,
+                    "0000556E": 2
+                }
+            }
+        ],
+
+        [
+            {
+                "Stool": "Stool",
+                "ico": "Stool.png",
+                "mat":
+                {
+                    "000055AF": 1,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "Stool2": "Stool",
+                "ico": "Stool2.png",
+                "mat":
+                {
+                    "000055AF": 1,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "Stool3": "Stool",
+                "ico": "Stool3.png",
+                "mat":
+                {
+                    "000055AF": 1,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "Stool4": "Stool",
+                "ico": "Stool4.png",
+                "mat":
+                {
+                    "000055AF": 1,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "Stool5": "Stool",
+                "ico": "Stool5.png",
+                "mat":
+                {
+                    "000055AF": 1,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "Stool6": "Stool",
+                "ico": "Stool6.png",
+                "mat":
+                {
+                    "0000557D": 2,
+                    "000055B9": 1
+                }
+            },
+
+            {
+                "Stool7": "Stool",
+                "ico": "Stool7.png",
+                "mat":
+                {
+                    "0000557D": 2,
+                    "000055B9": 1
+                }
+            },
+
+            {
+                "Stool8": "Stool",
+                "ico": "Stool8.png",
+                "mat":
+                {
+                    "0000557D": 2,
+                    "000055B9": 1
+                }
+            },
+
+            {
+                "Stool9": "Stool",
+                "ico": "Stool9.png",
+                "mat":
+                {
+                    "000055AF": 1,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "Stool10": "Stool",
+                "ico": "Stool10.png",
+                "mat":
+                {
+                    "000055AF": 1,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "Stool11": "Stool",
+                "ico": "Stool11.png",
+                "mat":
+                {
+                    "000055AF": 1,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "Stool12": "Stool",
+                "ico": "Stool12.png",
+                "mat":
+                {
+                    "000055B1": 1,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "Stool13": "Stool",
+                "ico": "Stool13.png",
+                "mat":
+                {
+                    "000055AF": 1,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "Stool14": "Stool",
+                "ico": "Stool14.png",
+                "mat":
+                {
+                    "0000557D": 2,
+                    "000055CC": 1
+                }
+            },
+
+            {
+                "Stool15": "Stool",
+                "ico": "Stool15.png",
+                "mat":
+                {
+                    "000055AF": 1,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "Stool16": "Stool",
+                "ico": "Stool16.png",
+                "mat":
+                {
+                    "000055B1": 2,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "Stool17": "Stool",
+                "ico": "Stool17.png",
+                "mat":
+                {
+                    "000055B1": 2,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "Stool18": "Stool",
+                "ico": "Stool18.png",
+                "mat":
+                {
+                    "000055B1": 2,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "Stool19": "Stool",
+                "ico": "Stool19.png",
+                "mat":
+                {
+                    "0000559E": 1,
+                    "000055B9": 2
+                }
+            }
+        ],
+
+        [
+            {
+                "Bed": "Bed",
+                "ico": "Bed.png",
+                "mat":
+                {
+                    "000055AF": 2,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "Bed2": "Bed",
+                "ico": "Bed2.png",
+                "mat":
+                {
+                    "000055AF": 2,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "Bed3": "Bed",
+                "ico": "Bed3.png",
+                "mat":
+                {
+                    "000055AF": 2,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "Bed4": "Bed",
+                "ico": "Bed4.png",
+                "mat":
+                {
+                    "000055AF": 2,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "Bed5": "Bed",
+                "ico": "Bed5.png",
+                "mat":
+                {
+                    "000055AF": 2,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "Cot1": "Cot",
+                "ico": "Cot1.png",
+                "mat":
+                {
+                    "000055AF": 2,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "SurgicalBed": "Surgical Bed",
+                "ico": "SurgicalBed.png",
+                "mat":
+                {
+                    "00005572": 2,
+                    "000055AF": 2,
+                    "0000556E": 1
+                }
+            },
+
+            {
+                "SurgicalBed2": "Surgical Bed",
+                "ico": "SurgicalBed2.png",
+                "mat":
+                {
+                    "00005572": 2,
+                    "000055AF": 2,
+                    "0000556E": 1
+                }
+            },
+
+            {
+                "BunkBed": "Bunk Bed",
+                "ico": "BunkBed.png",
+                "mat":
+                {
+                    "000055AF": 3,
+                    "000055B9": 3
+                }
+            },
+
+            {
+                "Bed10": "Bed",
+                "ico": "Bed10.png",
+                "mat":
+                {
+                    "000055AF": 3,
+                    "000055B9": 3
+                }
+            },
+
+            {
+                "Bed11": "Bed",
+                "ico": "Bed11.png",
+                "mat":
+                {
+                    "000055AF": 3,
+                    "0000557D": 4
+                }
+            },
+
+            {
+                "Bed12": "Bed",
+                "ico": "Bed12.png",
+                "mat":
+                {
+                    "000055AF": 3,
+                    "0000557D": 4
+                }
+            },
+
+            {
+                "Bed13": "Bed",
+                "ico": "Bed13.png",
+                "mat":
+                {
+                    "00005572": 4,
+                    "000055AF": 3,
+                    "0000559E": 1
+                }
+            }
+        ],
+
+        [
+            {
+                "SleepingBag": "Sleeping Bag",
+                "ico": "SleepingBag.png",
+                "mat":
+                {
+                    "000055AF": 2,
+                    "000055CC": 1
+                }
+            },
+
+            {
+                "SleepingBag2": "Sleeping Bag",
+                "ico": "SleepingBag2.png",
+                "mat":
+                {
+                    "000055AF": 2,
+                    "000055CC": 1
+                }
+            },
+
+            {
+                "Futon": "Futon",
+                "ico": "Futon.png",
+                "mat":
+                {
+                    "000055AF": 2,
+                    "000055CC": 1
+                }
+            }
+        ],
+
+        [
+            {
+                "Table": "Table",
+                "ico": "Table.png",
+                "mat":
+                {
+                    "0000556E": 1,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "Table2": "Table",
+                "ico": "Table2.png",
+                "mat":
+                {
+                    "0000556E": 1,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "Table3": "Table",
+                "ico": "Table3.png",
+                "mat":
+                {
+                    "0000556E": 1,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "MedicalTable": "Medical Table",
+                "ico": "MedicalTable.png",
+                "mat":
+                {
+                    "0000556E": 1,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "MedicalTable2": "Medical Table",
+                "ico": "MedicalTable2.png",
+                "mat":
+                {
+                    "0000556E": 1,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "Table6": "Table",
+                "ico": "Table6.png",
+                "mat":
+                {
+                    "0000556E": 1,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "Table7": "Table",
+                "ico": "Table7.png",
+                "mat":
+                {
+                    "0000556E": 1,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "Table8": "Table",
+                "ico": "Table8.png",
+                "mat":
+                {
+                    "0000556E": 1,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "Table9": "Table",
+                "ico": "Table9.png",
+                "mat":
+                {
+                    "0000556E": 1,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "Table10": "Table",
+                "ico": "Table10.png",
+                "mat":
+                {
+                    "0000556E": 1,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "Table11": "Table",
+                "ico": "Table11.png",
+                "mat":
+                {
+                    "0000556E": 1,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "Table12": "Table",
+                "ico": "Table12.png",
+                "mat":
+                {
+                    "0000556E": 1,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "Table13": "Table",
+                "ico": "Table13.png",
+                "mat":
+                {
+                    "0000556E": 1,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "Table14": "Table",
+                "ico": "Table14.png",
+                "mat":
+                {
+                    "000055B1": 2,
+                    "000055B9": 3
+                }
+            },
+
+            {
+                "Table15": "Table",
+                "ico": "Table15.png",
+                "mat":
+                {
+                    "000055B1": 2,
+                    "000055B9": 3
+                }
+            },
+
+            {
+                "Table16": "Table",
+                "ico": "Table16.png",
+                "mat":
+                {
+                    "000055B1": 2,
+                    "000055B9": 3
+                }
+            },
+
+            {
+                "ConferenceTable": "Conference Table",
+                "ico": "ConferenceTable.png",
+                "mat":
+                {
+                    "0000556E": 2,
+                    "000055B9": 3
+                }
+            },
+
+            {
+                "ConferenceTable2": "Conference Table",
+                "ico": "ConferenceTable2.png",
+                "mat":
+                {
+                    "0000556E": 2,
+                    "000055B9": 3
+                }
+            },
+
+            {
+                "ConferenceTable3": "Conference Table",
+                "ico": "ConferenceTable3.png",
+                "mat":
+                {
+                    "0000556E": 2,
+                    "000055B9": 3
+                }
+            },
+
+            {
+                "LongTable": "Long Table",
+                "ico": "LongTable.png",
+                "mat":
+                {
+                    "0000556D": 2,
+                    "000055B9": 3
+                }
+            },
+
+            {
+                "LongTable2": "Long Oval Table",
+                "ico": "LongTable2.png",
+                "mat":
+                {
+                    "0000556D": 2,
+                    "000055B9": 3
+                }
+            }
+        ],
+
+        [
+            {
+                "CoffeeTable": "Coffee Table",
+                "ico": "CoffeeTable.png",
+                "mat":
+                {
+                    "0000557D": 1,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "Table9_2": "Table",
+                "ico": "Table9_2.png",
+                "mat":
+                {
+                    "0000557D": 1,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "Table9_3": "Table",
+                "ico": "Table9_3.png",
+                "mat":
+                {
+                    "0000557D": 1,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "CoffeeTable4": "Coffee Table",
+                "ico": "CoffeeTable4.png",
+                "mat":
+                {
+                    "0000557D": 1,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "CoffeeTable5": "Coffee Table",
+                "ico": "CoffeeTable5.png",
+                "mat":
+                {
+                    "0000557D": 1,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "CoffeeTable6": "Coffee Table",
+                "ico": "CoffeeTable6.png",
+                "mat":
+                {
+                    "0000557D": 1,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "CoffeeTable7": "Coffee Table",
+                "ico": "CoffeeTable7.png",
+                "mat":
+                {
+                    "0000557D": 1,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "BarTable": "Bar Table",
+                "ico": "BarTable.png",
+                "mat":
+                {
+                    "0000557D": 1,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "SideTable": "Side Table",
+                "ico": "SideTable.png",
+                "mat":
+                {
+                    "0000557D": 1,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "CoffeeTable10": "Coffee Table",
+                "ico": "CoffeeTable10.png",
+                "mat":
+                {
+                    "0000557D": 1,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "BarTable2": "Bar Table",
+                "ico": "BarTable2.png",
+                "mat":
+                {
+                    "0000557D": 1,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "SideTable2": "Side Table",
+                "ico": "SideTable2.png",
+                "mat":
+                {
+                    "0000557D": 1,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "SideTable3": "Side Table",
+                "ico": "SideTable3.png",
+                "mat":
+                {
+                    "000055B1": 1,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "SideTable4": "Side Table",
+                "ico": "SideTable4.png",
+                "mat":
+                {
+                    "000055B1": 1,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "SideTable5": "Side Table",
+                "ico": "SideTable5.png",
+                "mat":
+                {
+                    "0000557D": 1,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "SideTable6": "Side Table",
+                "ico": "SideTable6.png",
+                "mat":
+                {
+                    "0000557D": 1,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "EndTable": "End Table",
+                "ico": "EndTable.png",
+                "mat":
+                {
+                    "000055B1": 1,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "EndTable2": "End Table",
+                "ico": "EndTable2.png",
+                "mat":
+                {
+                    "000055B1": 1,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "EndTable3": "End Table",
+                "ico": "EndTable3.png",
+                "mat":
+                {
+                    "000055B1": 1,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "EndTable4": "End Table",
+                "ico": "EndTable4.png",
+                "mat":
+                {
+                    "0000557D": 1,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "EndTable5": "End Table",
+                "ico": "EndTable5.png",
+                "mat":
+                {
+                    "0000557D": 1,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "CoffeeTable22": "Coffee Table",
+                "ico": "CoffeeTable22.png",
+                "mat":
+                {
+                    "000055B1": 2,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "EndTable6": "End Table",
+                "ico": "EndTable6.png",
+                "mat":
+                {
+                    "0000557D": 1,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "EndTable7": "End Table",
+                "ico": "EndTable7.png",
+                "mat":
+                {
+                    "0000557D": 1,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "EndTable8": "End Table",
+                "ico": "EndTable8.png",
+                "mat":
+                {
+                    "0000557D": 1,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "EndTable9": "End Table",
+                "ico": "EndTable9.png",
+                "mat":
+                {
+                    "0000557D": 1,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "OrreryTable": "Orrery Table",
+                "ico": "OrreryTable.png",
+                "mat":
+                {
+                    "0000557D": 2,
+                    "000055B9": 2,
+                    "0000557D": 3
+                }
+            }
+        ],
+
+        [
+            {
+                "GamingTable": "Gaming Table",
+                "ico": "GamingTable.png",
+                "mat":
+                {
+                    "00005572": 2,
+                    "000055A6": 1,
+                    "000055B9": 3
+                }
+            },
+
+            {
+                "GamingTable2": "Gaming Table",
+                "ico": "GamingTable2.png",
+                "mat":
+                {
+                    "00005572": 2,
+                    "000055A6": 1,
+                    "000055B9": 3
+                }
+            },
+
+            {
+                "PingPongTable": "Ping Pong Table",
+                "ico": "PingPongTable.png",
+                "mat":
+                {
+                    "000055B9": 3,
+                    "000055A6": 1,
+                    "00005572": 2
+                }
+            },
+
+            {
+                "PingPongTable2": "Ping Pong Table",
+                "ico": "PingPongTable2.png",
+                "mat":
+                {
+                    "000055B9": 3,
+                    "000055A6": 1,
+                    "00005572": 2
+                }
+            },
+
+            {
+                "PoolTable": "Pool Table",
+                "ico": "PoolTable.png",
+                "mat":
+                {
+                    "000055B9": 3,
+                    "000055A6": 1,
+                    "00005572": 2
+                }
+            }
+        ],
+
+        [
+            {
+                "NavigationConsole": "Navigation Console",
+                "ico": "NavigationConsole.png",
+                "mat":
+                {
+                    "00005576": 2,
+                    "0000556E": 2,
+                    "000057D9": 2
+                }
+            },
+
+            {
+                "NavigationConsole2": "Navigation Console",
+                "ico": "NavigationConsole2.png",
+                "mat":
+                {
+                    "00005576": 2,
+                    "0000556E": 2,
+                    "000057D9": 2
+                }
+            },
+
+            {
+                "NavigationConsole3": "Navigation Console",
+                "ico": "NavigationConsole3.png",
+                "mat":
+                {
+                    "00005576": 2,
+                    "0000556E": 2,
+                    "000057D9": 2
+                }
+            },
+
+            {
+                "NavigationConsole4": "Navigation Console",
+                "ico": "NavigationConsole4.png",
+                "mat":
+                {
+                    "00005576": 2,
+                    "0000556E": 2,
+                    "000057D9": 2
+                }
+            }
+        ],
+
+        [
+            {
+                "WoodenDesk": "Wooden Desk",
+                "ico": "WoodenDesk.png",
+                "mat":
+                {
+                    "000055B1": 2,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "WoodenDesk2": "Wooden Desk",
+                "ico": "WoodenDesk2.png",
+                "mat":
+                {
+                    "000055B1": 2,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "Desk": "Desk",
+                "ico": "Desk.png",
+                "mat":
+                {
+                    "0000556E": 2,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "Desk2": "Desk",
+                "ico": "Desk2.png",
+                "mat":
+                {
+                    "0000556E": 2,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "Desk3": "Desk",
+                "ico": "Desk3.png",
+                "mat":
+                {
+                    "000055B1": 2,
+                    "000055B9": 3
+                }
+            },
+
+            {
+                "Desk4": "Desk",
+                "ico": "Desk4.png",
+                "mat":
+                {
+                    "000055B1": 2,
+                    "000055B9": 3
+                }
+            }
+        ],
+
+        [
+            {
+                "ConsoleDesk": "Console Desk",
+                "ico": "ConsoleDesk.png",
+                "mat":
+                {
+                    "00005576": 2,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "ConsoleDesk2": "Console Desk",
+                "ico": "ConsoleDesk2.png",
+                "mat":
+                {
+                    "00005576": 2,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "ConsoleDesk3": "Console Desk",
+                "ico": "ConsoleDesk3.png",
+                "mat":
+                {
+                    "00005576": 2,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "ConsoleDesk4": "Console Desk - Tall",
+                "ico": "ConsoleDesk4.png",
+                "mat":
+                {
+                    "00005576": 2,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "ConsoleDesk5": "Console Desk - Tall",
+                "ico": "ConsoleDesk5.png",
+                "mat":
+                {
+                    "00005576": 2,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "ConsoleDesk6": "Console Desk - Tall",
+                "ico": "ConsoleDesk6.png",
+                "mat":
+                {
+                    "00005576": 2,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "ConsoleDesk7": "Console Desk - Corner",
+                "ico": "ConsoleDesk7.png",
+                "mat":
+                {
+                    "00005576": 2,
+                    "0000557D": 2
+                }
+            }
+        ],
+
+        [
+            {
+                "OfficeDeskPartition": "Office Desk Partition",
+                "ico": "OfficeDeskPartition.png",
+                "mat":
+                {
+                    "0000557D": 1,
+                    "000055B9": 1
+                }
+            },
+
+            {
+                "OfficeDeskPartition2": "Office Desk Partition",
+                "ico": "OfficeDeskPartition2.png",
+                "mat":
+                {
+                    "0000557D": 1,
+                    "000055B9": 1
+                }
+            },
+
+            {
+                "OfficeDeskPartition3": "Office Desk Partition",
+                "ico": "OfficeDeskPartition3.png",
+                "mat":
+                {
+                    "0000557D": 1,
+                    "000055B9": 1
+                }
+            },
+
+            {
+                "OfficeDeskPartition4": "Office Desk Partition",
+                "ico": "OfficeDeskPartition4.png",
+                "mat":
+                {
+                    "0000557D": 1,
+                    "000055B9": 1
+                }
+            }
+        ],
+
+        [
+            {
+                "Cabinet": "Cabinet",
+                "ico": "Cabinet.png",
+                "mat":
+                {
+                    "0000557D": 2,
+                    "000055B9": 1
+                }
+            },
+
+            {
+                "Cabinet2": "Cabinet",
+                "ico": "Cabinet2.png",
+                "mat":
+                {
+                    "0000557D": 2,
+                    "000055B9": 1
+                }
+            },
+
+            {
+                "Cabinet3": "Cabinet",
+                "ico": "Cabinet3.png",
+                "mat":
+                {
+                    "0000557D": 2,
+                    "000055B9": 1
+                }
+            },
+
+            {
+                "Cabinet4": "Cabinet",
+                "ico": "Cabinet4.png",
+                "mat":
+                {
+                    "0000557D": 2,
+                    "000055B9": 1
+                }
+            },
+
+            {
+                "Cabinet5": "Cabinet",
+                "ico": "Cabinet5.png",
+                "mat":
+                {
+                    "0000557D": 2,
+                    "000055B9": 1
+                }
+            },
+
+            {
+                "IndustrialCabinet": "Industrial Cabinet",
+                "ico": "IndustrialCabinet.png",
+                "mat":
+                {
+                    "0000557D": 2,
+                    "000055B9": 1
+                }
+            },
+
+            {
+                "IndustrialCabinet2": "Industrial Cabinet",
+                "ico": "IndustrialCabinet2.png",
+                "mat":
+                {
+                    "0000557D": 2,
+                    "000055B9": 1
+                }
+            }
+        ],
+
+        [
+            {
+                "WallCabinet": "Wall Cabinet",
+                "ico": "WallCabinet.png",
+                "mat":
+                {
+                    "00005572": 1,
+                    "0000556E": 2
+                }
+            },
+
+            {
+                "WallCabinet2": "Wall Cabinet",
+                "ico": "WallCabinet2.png",
+                "mat":
+                {
+                    "00005572": 1,
+                    "0000556E": 2
+                }
+            },
+
+            {
+                "WallCabinet3": "Wall Cabinet",
+                "ico": "WallCabinet3.png",
+                "mat":
+                {
+                    "00005572": 1,
+                    "0000556E": 2
+                }
+            }
+        ],
+
+        [
+            {
+                "Shelf": "Shelf",
+                "ico": "Shelf.png",
+                "mat":
+                {
+                    "0000557D": 2,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "Shelf2": "Shelf",
+                "ico": "Shelf2.png",
+                "mat":
+                {
+                    "0000557D": 2,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "Shelf3": "Shelf",
+                "ico": "Shelf3.png",
+                "mat":
+                {
+                    "0000557D": 2,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "Shelf4": "Shelf",
+                "ico": "Shelf4.png",
+                "mat":
+                {
+                    "0000557D": 2,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "SupplyShelf": "Supply Shelf",
+                "ico": "SupplyShelf.png",
+                "mat":
+                {
+                    "0000557D": 2,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "SupplyShelf2": "Supply Shelf",
+                "ico": "SupplyShelf2.png",
+                "mat":
+                {
+                    "0000557D": 2,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "Bookcase": "Bookcase",
+                "ico": "Bookcase.png",
+                "mat":
+                {
+                    "000055B1": 2,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "Shelf8": "Shelf",
+                "ico": "Shelf8.png",
+                "mat":
+                {
+                    "0000557D": 2,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "Shelf9": "Shelf",
+                "ico": "Shelf9.png",
+                "mat":
+                {
+                    "0000557D": 2,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "PlantShelf": "Plant Shelf",
+                "ico": "PlantShelf.png",
+                "mat":
+                {
+                    "0000557D": 2,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "Shelf11": "Shelf",
+                "ico": "Shelf11.png",
+                "mat":
+                {
+                    "0000557D": 2,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "Shelf12": "Shelf",
+                "ico": "Shelf12.png",
+                "mat":
+                {
+                    "0000557D": 2,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "FancyBookcase": "Fancy Bookcase",
+                "ico": "FancyBookcase.png",
+                "mat":
+                {
+                    "000055A6": 2,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "FancyBookcase2": "Fancy Bookcase",
+                "ico": "FancyBookcase2.png",
+                "mat":
+                {
+                    "000055A6": 2,
+                    "000055B9": 2
+                }
+            }
+        ],
+
+        [
+            {
+                "WallShelf": "Wall Shelf",
+                "ico": "WallShelf.png",
+                "mat":
+                {
+                    "0000557D": 1,
+                    "000055B9": 1
+                }
+            },
+
+            {
+                "WallShelf2": "Wall Shelf",
+                "ico": "WallShelf2.png",
+                "mat":
+                {
+                    "0000557D": 1,
+                    "000055B9": 1
+                }
+            },
+
+            {
+                "WallShelf3": "Wall Shelf",
+                "ico": "WallShelf3.png",
+                "mat":
+                {
+                    "0000557D": 1,
+                    "000055B9": 1
+                }
+            },
+
+            {
+                "WallShelf4": "Wall Shelf",
+                "ico": "WallShelf4.png",
+                "mat":
+                {
+                    "0000557D": 1,
+                    "000055B9": 1
+                }
+            }
+        ],
+
+        {
+            "Refrigerator": "Refrigerator",
+            "ico": "Refrigerator.png",
+            "mat":
+            {
+                "0000556E": 2,
+                "00005577": 1
+            }
+        }
+    ],
+
+    "Decorations":
+    [
+        [
+            {
+                "StorageBox": "Storage Box",
+                "ico": "StorageBox.png",
+                "mat":
+                {
+                    "0000557D": 2,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "StorageBox2": "Storage Box",
+                "ico": "StorageBox2.png",
+                "mat":
+                {
+                    "0000557D": 2,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "StorageBox3": "Storage Box",
+                "ico": "StorageBox3.png",
+                "mat":
+                {
+                    "0000557D": 2,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "Cooler": "Cooler",
+                "ico": "Cooler.png",
+                "mat":
+                {
+                    "0000557D": 2,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "AmmoCase": "Ammo Case",
+                "ico": "AmmoCase.png",
+                "mat":
+                {
+                    "0000557D": 2,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "AmmoCase2": "Ammo Case",
+                "ico": "AmmoCase2.png",
+                "mat":
+                {
+                    "0000557D": 2,
+                    "000055B9": 2
+                }
+            }
+        ],
+
+        [
+            {
+                "StorageCrate": "Storage Crate",
+                "ico": "StorageCrate.png",
+                "mat":
+                {
+                    "000055B9": 4,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "StorageCrate2": "Storage Crate",
+                "ico": "StorageCrate2.png",
+                "mat":
+                {
+                    "000055B9": 4,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "IndustrialCrate": "Industrial Crate",
+                "ico": "IndustrialCrate.png",
+                "mat":
+                {
+                    "000055B9": 4,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "MilitaryCrate": "Military Crate",
+                "ico": "MilitaryCrate.png",
+                "mat":
+                {
+                    "000055B9": 4,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "ScienceCrate": "Science Crate",
+                "ico": "ScienceCrate.png",
+                "mat":
+                {
+                    "000055B9": 4,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "ContrabandCache": "Contraband Cache",
+                "ico": "ContrabandCache.png",
+                "mat":
+                {
+                    "000055B9": 4,
+                    "0000557D": 2
+                }
+            }
+        ],
+
+        [
+            {
+                "Safe": "Safe",
+                "ico": "Safe.png",
+                "mat":
+                {
+                    "0000556E": 3,
+                    "000057D9": 1
+                }
+            },
+
+            {
+                "Safe2": "Safe",
+                "ico": "Safe2.png",
+                "mat":
+                {
+                    "0000556E": 3,
+                    "000057D9": 1
+                }
+            },
+
+            {
+                "Safe3": "Safe",
+                "ico": "Safe3.png",
+                "mat":
+                {
+                    "0000556E": 3,
+                    "000057D9": 1
+                }
+            },
+
+            {
+                "Safe4": "Safe",
+                "ico": "Safe4.png",
+                "mat":
+                {
+                    "0000556E": 3,
+                    "000057D9": 1
+                }
+            }
+        ],
+
+        [
+            {
+                "FloodLamp": "FloodLamp - Handheld",
+                "ico": "FloodLamp.png",
+                "mat":
+                {
+                    "00005588": 1,
+                    "0000557D": 1
+                }
+            },
+
+            {
+                "FloodLamp2": "FloodLamp - Small",
+                "ico": "FloodLamp2.png",
+                "mat":
+                {
+                    "00005588": 1,
+                    "0000557D": 1
+                }
+            },
+
+            {
+                "FloodLamp3": "FloodLamp - Tripod",
+                "ico": "FloodLamp3.png",
+                "mat":
+                {
+                    "00005588": 1,
+                    "0000557D": 1
+                }
+            },
+
+            {
+                "FloodLamp4": "FloodLamp - Tripod Tall",
+                "ico": "FloodLamp4.png",
+                "mat":
+                {
+                    "00005588": 1,
+                    "0000557D": 1
+                }
+            }
+        ],
+
+        [
+            {
+                "Picture": "Picture",
+                "ico": "Picture.png",
+                "mat":
+                {
+                    "0029F400": 1,
+                    "000055B9": 1
+                }
+            },
+
+            {
+                "Picture2": "Picture",
+                "ico": "Picture2.png",
+                "mat":
+                {
+                    "0029F400": 1,
+                    "000055B9": 1
+                }
+            },
+
+            {
+                "Picture3": "Picture",
+                "ico": "Picture3.png",
+                "mat":
+                {
+                    "0029F400": 1,
+                    "000055B9": 1
+                }
+            },
+
+            {
+                "Picture4": "Picture",
+                "ico": "Picture4.png",
+                "mat":
+                {
+                    "0029F400": 1,
+                    "000055B9": 1
+                }
+            },
+
+            {
+                "Picture5": "Picture",
+                "ico": "Picture5.png",
+                "mat":
+                {
+                    "0029F400": 1,
+                    "000055B9": 1
+                }
+            },
+
+            {
+                "Picture6": "Picture",
+                "ico": "Picture6.png",
+                "mat":
+                {
+                    "0029F400": 1,
+                    "000055B9": 1
+                }
+            },
+
+            {
+                "Picture7": "Picture",
+                "ico": "Picture7.png",
+                "mat":
+                {
+                    "0029F400": 1,
+                    "000055B9": 1
+                }
+            }
+        ],
+
+        [
+            {
+                "Poster": "Poster",
+                "ico": "Poster.png",
+                "mat":
+                {
+                    "000055A7": 1,
+                    "000055B9": 1
+                }
+            },
+
+            {
+                "Poster2": "Poster",
+                "ico": "Poster2.png",
+                "mat":
+                {
+                    "000055A7": 1,
+                    "000055B9": 1
+                }
+            },
+
+            {
+                "Poster3": "Poster",
+                "ico": "Poster3.png",
+                "mat":
+                {
+                    "000055A7": 1,
+                    "000055B9": 1
+                }
+            },
+
+            {
+                "Poster4": "Poster",
+                "ico": "Poster4.png",
+                "mat":
+                {
+                    "000055A7": 1,
+                    "000055B9": 1
+                }
+            },
+
+            {
+                "Poster5": "Poster",
+                "ico": "Poster5.png",
+                "mat":
+                {
+                    "000055A7": 1,
+                    "000055B9": 1
+                }
+            },
+
+            {
+                "Poster6": "Poster",
+                "ico": "Poster6.png",
+                "mat":
+                {
+                    "000055A7": 1,
+                    "000055B9": 1
+                }
+            },
+
+            {
+                "Poster7": "Poster",
+                "ico": "Poster7.png",
+                "mat":
+                {
+                    "000055A7": 1,
+                    "000055B9": 1
+                }
+            },
+
+            {
+                "Poster8": "Poster",
+                "ico": "Poster8.png",
+                "mat":
+                {
+                    "000055A7": 1,
+                    "000055B9": 1
+                }
+            },
+
+            {
+                "Poster9": "Poster",
+                "ico": "Poster9.png",
+                "mat":
+                {
+                    "000055A7": 1,
+                    "000055B9": 1
+                }
+            },
+
+            {
+                "Poster10": "Poster",
+                "ico": "Poster10.png",
+                "mat":
+                {
+                    "000055A7": 1,
+                    "000055B9": 1
+                }
+            },
+
+            {
+                "Poster11": "Poster",
+                "ico": "Poster11.png",
+                "mat":
+                {
+                    "000055A7": 1,
+                    "000055B9": 1
+                }
+            },
+
+            {
+                "Poster12": "Poster",
+                "ico": "Poster12.png",
+                "mat":
+                {
+                    "000055A7": 1,
+                    "000055B9": 1
+                }
+            },
+
+            {
+                "Poster13": "Poster",
+                "ico": "Poster13.png",
+                "mat":
+                {
+                    "000055A7": 1,
+                    "000055B9": 1
+                }
+            },
+
+            {
+                "Poster14": "Poster",
+                "ico": "Poster14.png",
+                "mat":
+                {
+                    "000055A7": 1,
+                    "000055B9": 1
+                }
+            },
+
+            {
+                "Poster15": "Poster",
+                "ico": "Poster15.png",
+                "mat":
+                {
+                    "000055A7": 1,
+                    "000055B9": 1
+                }
+            },
+
+            {
+                "Poster16": "Poster",
+                "ico": "Poster16.png",
+                "mat":
+                {
+                    "000055A7": 1,
+                    "000055B9": 1
+                }
+            },
+
+            {
+                "Poster17": "Poster",
+                "ico": "Poster17.png",
+                "mat":
+                {
+                    "000055A7": 1,
+                    "000055B9": 1
+                }
+            },
+
+            {
+                "Poster18": "Poster",
+                "ico": "Poster18.png",
+                "mat":
+                {
+                    "000055A7": 1,
+                    "000055B9": 1
+                }
+            },
+
+            {
+                "Poster19": "Poster",
+                "ico": "Poster19.png",
+                "mat":
+                {
+                    "000055A7": 1,
+                    "000055B9": 1
+                }
+            },
+
+            {
+                "Poster20": "Poster",
+                "ico": "Poster20.png",
+                "mat":
+                {
+                    "000055A7": 1,
+                    "000055B9": 1
+                }
+            },
+
+            {
+                "Poster21": "Poster",
+                "ico": "Poster21.png",
+                "mat":
+                {
+                    "000055A7": 1,
+                    "000055B9": 1
+                }
+            },
+
+            {
+                "Poster22": "Poster",
+                "ico": "Poster22.png",
+                "mat":
+                {
+                    "000055A7": 1,
+                    "000055B9": 1
+                }
+            },
+
+            {
+                "Poster23": "Poster",
+                "ico": "Poster23.png",
+                "mat":
+                {
+                    "000055A7": 1,
+                    "000055B9": 1
+                }
+            },
+
+            {
+                "Poster24": "Poster",
+                "ico": "Poster24.png",
+                "mat":
+                {
+                    "000055A7": 1,
+                    "000055B9": 1
+                }
+            },
+
+            {
+                "Poster25": "Poster",
+                "ico": "Poster25.png",
+                "mat":
+                {
+                    "000055A7": 1,
+                    "000055B9": 1
+                }
+            },
+
+            {
+                "Poster26": "Poster",
+                "ico": "Poster26.png",
+                "mat":
+                {
+                    "000055A7": 1,
+                    "000055B9": 1
+                }
+            },
+
+            {
+                "Poster27": "Poster",
+                "ico": "Poster27.png",
+                "mat":
+                {
+                    "000055A7": 1,
+                    "000055B9": 1
+                }
+            }
+        ],
+
+        [
+            {
+                "WarningSign": "Warning Sign",
+                "ico": "WarningSign.png",
+                "mat":
+                {
+                    "0000557D": 1,
+                    "000055A7": 1
+                }
+            },
+
+            {
+                "CautionSign": "Caution Sign",
+                "ico": "CautionSign.png",
+                "mat":
+                {
+                    "0000557D": 1,
+                    "000055A7": 1
+                }
+            },
+
+            {
+                "DangerSign": "Danger Sign",
+                "ico": "DangerSign.png",
+                "mat":
+                {
+                    "0000557D": 1,
+                    "000055A7": 1
+                }
+            },
+
+            {
+                "DangerSign2": "Danger Sign",
+                "ico": "DangerSign2.png",
+                "mat":
+                {
+                    "0000557D": 1,
+                    "000055A7": 1
+                }
+            },
+
+            {
+                "FlammableSign": "Flammable Sign",
+                "ico": "FlammableSign.png",
+                "mat":
+                {
+                    "0000557D": 1,
+                    "000055A7": 1
+                }
+            },
+
+            {
+                "RadioactiveSign": "Radioactive Sign",
+                "ico": "RadioactiveSign.png",
+                "mat":
+                {
+                    "0000557D": 1,
+                    "000055A7": 1
+                }
+            },
+
+            {
+                "RestrictedAreaSign": "Restricted Area Sign",
+                "ico": "RestrictedAreaSign.png",
+                "mat":
+                {
+                    "0000557D": 1,
+                    "000055A7": 1
+                }
+            },
+
+            {
+                "RestrictedAreaSign2": "Restricted Area Sign",
+                "ico": "RestrictedAreaSign2.png",
+                "mat":
+                {
+                    "0000557D": 1,
+                    "000055A7": 1
+                }
+            },
+
+            {
+                "AuthorizedOnlySign": "Authorized Only Sign",
+                "ico": "AuthorizedOnlySign.png",
+                "mat":
+                {
+                    "0000557D": 1,
+                    "000055A7": 1
+                }
+            },
+
+            {
+                "SecuritySign": "Security Sign",
+                "ico": "SecuritySign.png",
+                "mat":
+                {
+                    "0000557D": 1,
+                    "000055A7": 1
+                }
+            },
+
+            {
+                "DangerSign3": "Danger Sign",
+                "ico": "DangerSign3.png",
+                "mat":
+                {
+                    "0000557D": 1,
+                    "000055A7": 1
+                }
+            },
+
+            {
+                "DangerSign4": "Danger Sign",
+                "ico": "DangerSign4.png",
+                "mat":
+                {
+                    "0000557D": 1,
+                    "000055A7": 1
+                }
+            },
+
+            {
+                "BiohazardWarningSign": "Biohazard Warning Sign",
+                "ico": "BiohazardWarningSign.png",
+                "mat":
+                {
+                    "0000557D": 1,
+                    "000055A7": 1
+                }
+            },
+
+            {
+                "AuthorizedOnlySign2": "Authorized Only Sign",
+                "ico": "AuthorizedOnlySign2.png",
+                "mat":
+                {
+                    "0000557D": 1,
+                    "000055A7": 1
+                }
+            },
+
+            {
+                "BiohazardWarningSign2": "Biohazard Warning Sign",
+                "ico": "BiohazardWarningSign2.png",
+                "mat":
+                {
+                    "0000557D": 1,
+                    "000055A7": 1
+                }
+            },
+
+            {
+                "DangerSign5": "Danger Sign",
+                "ico": "DangerSign5.png",
+                "mat":
+                {
+                    "0000557D": 1,
+                    "000055A7": 1
+                }
+            },
+
+            {
+                "CautionSign2": "Caution Sign",
+                "ico": "CautionSign2.png",
+                "mat":
+                {
+                    "0000557D": 1,
+                    "000055A7": 1
+                }
+            }
+        ],
+
+        [
+            {
+                "MountedBeetleCrab": "Mounted Beetle Crab",
+                "ico": "MountedBeetleCrab.png",
+                "mat":
+                {
+                    "000055AF": 2,
+                    "000055B9": 2,
+                    "000055B1": 2
+                }
+            },
+
+            {
+                "MountedLockJaw": "Mounted Lock Jaw",
+                "ico": "MountedLockJaw.png",
+                "mat":
+                {
+                    "000055AF": 2,
+                    "000055B9": 2,
+                    "000055B1": 2
+                }
+            },
+
+            {
+                "MountedRadarFace": "Mounted Radar Face",
+                "ico": "MountedRadarFace.png",
+                "mat":
+                {
+                    "000055AF": 2,
+                    "000055B9": 2,
+                    "000055B1": 2
+                }
+            },
+
+            {
+                "MountedSeaBat": "Mounted Sea Bat",
+                "ico": "MountedSeaBat.png",
+                "mat":
+                {
+                    "000055AF": 2,
+                    "000055B9": 2,
+                    "000055B1": 2
+                }
+            }
+        ],
+
+        {
+            "WallMonitor": "Wall Monitor",
+            "ico": "WallMonitor.png",
+            "mat":
+            {
+                "00005576": 1,
+                "0000557D": 1
+            }
+        },
+
+        [
+            {
+                "DartBoard": "Dart Board",
+                "ico": "DartBoard.png",
+                "mat":
+                {
+                    "000055A7": 1,
+                    "000055B9": 1
+                }
+            },
+
+            {
+                "DartBoard2": "Dart Board",
+                "ico": "DartBoard2.png",
+                "mat":
+                {
+                    "000055A7": 1,
+                    "000055B9": 1
+                }
+            },
+
+            {
+                "DartBoard3": "Dart Board",
+                "ico": "DartBoard3.png",
+                "mat":
+                {
+                    "000055A7": 1,
+                    "000055B9": 1
+                }
+            }
+        ],
+
+        [
+            {
+                "Rug": "Rug",
+                "ico": "Rug.png",
+                "mat":
+                {
+                    "000055AF": 2,
+                    "000055A7": 1
+                }
+            },
+
+            {
+                "Rug2": "Rug",
+                "ico": "Rug2.png",
+                "mat":
+                {
+                    "000055AF": 2,
+                    "000055A7": 1
+                }
+            },
+
+            {
+                "Rug3": "Rug",
+                "ico": "Rug3.png",
+                "mat":
+                {
+                    "000055AF": 2,
+                    "000055A7": 1
+                }
+            },
+
+            {
+                "Rug4": "Rug",
+                "ico": "Rug4.png",
+                "mat":
+                {
+                    "000055AF": 2,
+                    "000055A7": 1
+                }
+            },
+
+            {
+                "Rug5": "Rug",
+                "ico": "Rug5.png",
+                "mat":
+                {
+                    "000055AF": 2,
+                    "000055A7": 1
+                }
+            },
+
+            {
+                "Rug6": "Rug",
+                "ico": "Rug6.png",
+                "mat":
+                {
+                    "000055AF": 2,
+                    "000055A7": 1
+                }
+            },
+
+            {
+                "Rug7": "Rug",
+                "ico": "Rug7.png",
+                "mat":
+                {
+                    "000055AF": 2,
+                    "000055A7": 1
+                }
+            },
+
+            {
+                "RoundRug": "Round Rug",
+                "ico": "RoundRug.png",
+                "mat":
+                {
+                    "000055AF": 2,
+                    "000055A7": 1
+                }
+            },
+
+            {
+                "OvalRug": "Oval Rug",
+                "ico": "OvalRug.png",
+                "mat":
+                {
+                    "000055AF": 2,
+                    "000055A7": 1
+                }
+            },
+
+            {
+                "Rug10": "Rug",
+                "ico": "Rug10.png",
+                "mat":
+                {
+                    "000055AF": 2,
+                    "000055A7": 1
+                }
+            },
+
+            {
+                "Rug11": "Rug",
+                "ico": "Rug11.png",
+                "mat":
+                {
+                    "000055AF": 2,
+                    "000055A7": 1
+                }
+            },
+
+            {
+                "AnimalHideRug": "Animal Hide Rug",
+                "ico": "AnimalHideRug.png",
+                "mat":
+                {
+                    "000055AF": 3,
+                    "0000559E": 1
+                }
+            },
+
+            {
+                "RectangleRug": "Rectangle Rug",
+                "ico": "RectangleRug.png",
+                "mat":
+                {
+                    "000055AF": 3,
+                    "0000559E": 1
+                }
+            },
+
+            {
+                "Rug14": "Rug",
+                "ico": "Rug14.png",
+                "mat":
+                {
+                    "000055AF": 3,
+                    "0000559E": 2
+                }
+            },
+
+            {
+                "Rug15": "Rug",
+                "ico": "Rug15.png",
+                "mat":
+                {
+                    "000055AF": 3,
+                    "0000559E": 2
+                }
+            }
+        ],
+
+        [
+            {
+                "FloorMat": "Floor Mat",
+                "ico": "FloorMat.png",
+                "mat":
+                {
+                    "000055B9": 1,
+                    "000055A6": 1
+                }
+            },
+
+            {
+                "FloorMat2": "Floor Mat",
+                "ico": "FloorMat2.png",
+                "mat":
+                {
+                    "000055B9": 1,
+                    "000055A6": 1
+                }
+            },
+
+            {
+                "FloorMat3": "Floor Mat",
+                "ico": "FloorMat3.png",
+                "mat":
+                {
+                    "000055B9": 1,
+                    "000055A6": 1
+                }
+            },
+
+            {
+                "FloorMat4": "Floor Mat",
+                "ico": "FloorMat4.png",
+                "mat":
+                {
+                    "000055B9": 1,
+                    "000055A6": 1
+                }
+            },
+
+            {
+                "FloorMat5": "Floor Mat",
+                "ico": "FloorMat5.png",
+                "mat":
+                {
+                    "000055B9": 1,
+                    "000055A6": 1
+                }
+            }
+        ],
+
+        [
+            {
+                "StreetDryer": "Street Dryer",
+                "ico": "StreetDryer.png",
+                "mat":
+                {
+                    "0000556E": 2,
+                    "00005576": 1
+                }
+            },
+
+            {
+                "CautionCone": "Caution Cone",
+                "ico": "CautionCone.png",
+                "mat":
+                {
+                    "0000556E": 2,
+                    "00005576": 1
+                }
+            }
+        ],
+
+        [
+            {
+                "UtilityCart": "Utility Cart",
+                "ico": "UtilityCart.png",
+                "mat":
+                {
+                    "0000556E": 1,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "UtilityCart2": "Utility Cart",
+                "ico": "UtilityCart2.png",
+                "mat":
+                {
+                    "0000556E": 1,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "UtilityCart3": "Utility Cart",
+                "ico": "UtilityCart3.png",
+                "mat":
+                {
+                    "0000556E": 1,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "UtilityCart4": "Utility Cart",
+                "ico": "UtilityCart4.png",
+                "mat":
+                {
+                    "0000556E": 1,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "UtilityCart5": "Utility Cart",
+                "ico": "UtilityCart5.png",
+                "mat":
+                {
+                    "0000556E": 1,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "JanitorCart": "Janitor Cart",
+                "ico": "JanitorCart.png",
+                "mat":
+                {
+                    "0000556E": 1,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "MedicalCart": "Medical Cart",
+                "ico": "MedicalCart.png",
+                "mat":
+                {
+                    "0000556E": 1,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "MedicalCart2": "Medical Cart",
+                "ico": "MedicalCart2.png",
+                "mat":
+                {
+                    "0000556E": 1,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "MetalCart": "Metal Cart",
+                "ico": "MetalCart.png",
+                "mat":
+                {
+                    "0000556E": 1,
+                    "0000557D": 2
+                }
+            }
+        ],
+
+        [
+            {
+                "HandCart": "Hand Cart",
+                "ico": "HandCart.png",
+                "mat":
+                {
+                    "0000556E": 1,
+                    "0000557D": 1
+                }
+            },
+
+            {
+                "HandCart2": "Hand Cart",
+                "ico": "HandCart2.png",
+                "mat":
+                {
+                    "0000556E": 1,
+                    "0000557D": 1
+                }
+            },
+
+            {
+                "HandCart3": "Hand Cart",
+                "ico": "HandCart3.png",
+                "mat":
+                {
+                    "0000556E": 1,
+                    "0000557D": 1
+                }
+            },
+
+            {
+                "HandCart4": "Hand Cart",
+                "ico": "HandCart4.png",
+                "mat":
+                {
+                    "0000556E": 1,
+                    "0000557D": 1
+                }
+            },
+
+            {
+                "HandCart5": "Hand Cart",
+                "ico": "HandCart5.png",
+                "mat":
+                {
+                    "0000556E": 1,
+                    "0000557D": 1
+                }
+            }
+        ],
+
+        [
+            {
+                "TrashCan": "Trash Can",
+                "ico": "TrashCan.png",
+                "mat":
+                {
+                    "0000556E": 2,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "TrashCan2": "Trash Can",
+                "ico": "TrashCan2.png",
+                "mat":
+                {
+                    "0000556E": 2,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "TrashCan3": "Trash Bin",
+                "ico": "TrashCan3.png",
+                "mat":
+                {
+                    "0000556E": 2,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "TrashCan4": "Trash Bin",
+                "ico": "TrashCan4.png",
+                "mat":
+                {
+                    "0000556E": 2,
+                    "0000557D": 2
+                }
+            }
+        ],
+
+        {
+            "StorageBin": "Storage Bin",
+            "ico": "StorageBin.png",
+            "mat":
+            {
+                "000055B9": 1,
+                "0000556E": 1
+            }
+        },
+
+        [
+            {
+                "PunchingBag": "Punching Bag",
+                "ico": "PunchingBag.png",
+                "mat":
+                {
+                    "000055B9": 1,
+                    "0000556E": 2,
+                    "0000557D": 2
+                }
+            },
+
+            {
+                "WeightBench": "Weight Bench",
+                "ico": "WeightBench.png",
+                "mat":
+                {
+                    "0000556E": 6,
+                    "0000557D": 2,
+                    "00005572": 4
+                }
+            }
+        ],
+
+        {
+            "WhiteBoard": "White Board - Floor",
+            "ico": "WhiteBoard.png",
+            "mat":
+            {
+                "000055B9": 1,
+                "0000557D": 1
+            }
+        },
+
+        {
+            "StandingMirror": "Standing Mirror",
+            "ico": "StandingMirror.png",
+            "mat":
+            {
+                "000055B9": 1,
+                "0000556A": 1
+            }
+        },
+
+        {
+            "OldComputer": "Old Computer",
+            "ico": "OldComputer.png",
+            "mat":
+            {
+                "00005576": 2,
+                "0000557D": 2,
+                "000055B1": 1
+            }
+        },
+
+        {
+            "DiagnosticMachine": "Diagnostic Machine",
+            "ico": "DiagnosticMachine.png",
+            "mat":
+            {
+                "00005576": 1,
+                "0000557D": 2
+            }
+        },
+
+        {
+            "DeskMonitor": "Desk Monitor",
+            "ico": "DeskMonitor.png",
+            "mat":
+            {
+                "00005576": 1,
+                "0000557D": 1
+            }
+        },
+
+        {
+            "CoffeeMaker": "Coffee Maker",
+            "ico": "CoffeeMaker.png",
+            "mat":
+            {
+                "00005576": 1,
+                "0000557D": 1,
+                "000055CC": 1
+            }
+        },
+
+        {
+            "CoffeeMachine": "Coffee Machine",
+            "ico": "CoffeeMachine.png",
+            "mat":
+            {
+                "00005576": 1,
+                "0000557D": 2,
+                "000055CC": 1
+            }
+        },
+
+        {
+            "PortableStoveTop": "Portable Stove Top",
+            "ico": "PortableStoveTop.png",
+            "mat":
+            {
+                "00005570": 1,
+                "0000556E": 1
+            }
+        },
+
+        {
+            "DrinkMachine": "Drink Machine",
+            "ico": "DrinkMachine.png",
+            "mat":
+            {
+                "00005576": 1,
+                "0000557D": 2,
+                "000055CC": 1
+            }
+        },
+
+        {
+            "WaterCooler": "Water Cooler",
+            "ico": "WaterCooler.png",
+            "mat":
+            {
+                "00005591": 2,
+                "0000557D": 2
+            }
+        },
+
+        {
+            "Sink": "Sink",
+            "ico": "Sink.png",
+            "mat":
+            {
+                "000055B9": 1,
+                "0000556E": 1
+            }
+        },
+
+        {
+            "Toilet": "Toilet",
+            "ico": "Toilet.png",
+            "mat":
+            {
+                "000055B9": 2,
+                "0000557D": 1
+            }
+        },
+
+        {
+            "ToiletPaper": "Toilet Paper",
+            "ico": "ToiletPaper.png",
+            "mat":
+            {
+                "0000557D": 1,
+                "000055AF": 1
+            }
+        },
+
+        {
+            "TowelRack": "Towel Rack",
+            "ico": "TowelRack.png",
+            "mat":
+            {
+                "0000557D": 1,
+                "000055AF": 1
+            }
+        },
+
+        [
+            {
+                "Planter": "Planter",
+                "ico": "Planter.png",
+                "mat":
+                {
+                    "000055B9": 3,
+                    "000055AF": 2
+                }
+            },
+
+            {
+                "Planter2": "Planter",
+                "ico": "Planter2.png",
+                "mat":
+                {
+                    "000055B9": 3,
+                    "000055AF": 2
+                }
+            },
+
+            {
+                "Planter3": "Planter",
+                "ico": "Planter3.png",
+                "mat":
+                {
+                    "000055B9": 3,
+                    "000055AF": 2
+                }
+            },
+
+            {
+                "Planter4": "Planter",
+                "ico": "Planter4.png",
+                "mat":
+                {
+                    "000055B9": 3,
+                    "000055AF": 2
+                }
+            },
+
+            {
+                "Planter5": "Planter",
+                "ico": "Planter5.png",
+                "mat":
+                {
+                    "000055B9": 3,
+                    "000055AF": 2
+                }
+            },
+
+            {
+                "Planter6": "Planter",
+                "ico": "Planter6.png",
+                "mat":
+                {
+                    "000055B9": 3,
+                    "000055AF": 2
+                }
+            },
+
+            {
+                "Planter7": "Planter",
+                "ico": "Planter7.png",
+                "mat":
+                {
+                    "000055B9": 3,
+                    "000055AF": 2
+                }
+            },
+
+            {
+                "Planter8": "Planter",
+                "ico": "Planter8.png",
+                "mat":
+                {
+                    "000055B9": 3,
+                    "000055AF": 2
+                }
+            }
+        ],
+
+        [
+            {
+                "Pedestal": "Pedestal - Coral",
+                "ico": "Pedestal.png",
+                "mat":
+                {
+                    "000055B9": 2,
+                    "00005576": 2
+                }
+            },
+
+            {
+                "Pedestal2": "Pedestal - Coral",
+                "ico": "Pedestal2.png",
+                "mat":
+                {
+                    "000055B9": 2,
+                    "00005576": 2
+                }
+            },
+
+            {
+                "Pedestal3": "Pedestal - Coral",
+                "ico": "Pedestal3.png",
+                "mat":
+                {
+                    "000055B9": 2,
+                    "00005576": 2
+                }
+            },
+
+            {
+                "Pedestal4": "Pedestal - Coral",
+                "ico": "Pedestal4.png",
+                "mat":
+                {
+                    "000055B9": 2,
+                    "00005576": 2
+                }
+            },
+
+            {
+                "PedestalFossil": "Pedestal - Fossil",
+                "ico": "PedestalFossil.png",
+                "mat":
+                {
+                    "000055B9": 2,
+                    "00005576": 2
+                }
+            },
+
+            {
+                "PedestalFossil2": "Pedestal - Fossil",
+                "ico": "PedestalFossil2.png",
+                "mat":
+                {
+                    "000055B9": 2,
+                    "00005576": 2
+                }
+            },
+
+            {
+                "PedestalFossil3": "Pedestal - Fossil",
+                "ico": "PedestalFossil3.png",
+                "mat":
+                {
+                    "000055B9": 2,
+                    "00005576": 2
+                }
+            },
+
+            {
+                "PedestalFossil4": "Pedestal - Fossil",
+                "ico": "PedestalFossil4.png",
+                "mat":
+                {
+                    "000055B9": 2,
+                    "00005576": 2
+                }
+            },
+
+            {
+                "PedestalMeteorite": "Pedestal - Meteorite",
+                "ico": "PedestalMeteorite.png",
+                "mat":
+                {
+                    "000055B9": 2,
+                    "00005576": 2
+                }
+            },
+
+            {
+                "PedestalMeteorite2": "Pedestal - Meteorite",
+                "ico": "PedestalMeteorite2.png",
+                "mat":
+                {
+                    "000055B9": 2,
+                    "00005576": 2
+                }
+            },
+
+            {
+                "PedestalMeteorite3": "Pedestal - Meteorite",
+                "ico": "PedestalMeteorite3.png",
+                "mat":
+                {
+                    "000055B9": 2,
+                    "00005576": 2
+                }
+            },
+
+            {
+                "PedestalMeteorite4": "Pedestal - Meteorite",
+                "ico": "PedestalMeteorite4.png",
+                "mat":
+                {
+                    "000055B9": 2,
+                    "00005576": 2
+                }
+            },
+
+            {
+                "PedestalMeteorite5": "Pedestal - Meteorite",
+                "ico": "PedestalMeteorite5.png",
+                "mat":
+                {
+                    "000055B9": 2,
+                    "00005576": 2
+                }
+            },
+
+            {
+                "PedestalMeteorite6": "Pedestal - Meteorite",
+                "ico": "PedestalMeteorite6.png",
+                "mat":
+                {
+                    "000055B9": 2,
+                    "00005576": 2
+                }
+            },
+
+            {
+                "PedestalMeteorite7": "Pedestal - Meteorite",
+                "ico": "PedestalMeteorite7.png",
+                "mat":
+                {
+                    "000055B9": 2,
+                    "00005576": 2
+                }
+            },
+
+            {
+                "PedestalMeteorite8": "Pedestal - Meteorite",
+                "ico": "PedestalMeteorite8.png",
+                "mat":
+                {
+                    "000055B9": 2,
+                    "00005576": 2
+                }
+            },
+
+            {
+                "PedestalMeteorite9": "Pedestal - Meteorite",
+                "ico": "PedestalMeteorite9.png",
+                "mat":
+                {
+                    "000055B9": 2,
+                    "00005576": 2
+                }
+            },
+
+            {
+                "PedestalMeteorite10": "Pedestal - Meteorite",
+                "ico": "PedestalMeteorite10.png",
+                "mat":
+                {
+                    "000055B9": 2,
+                    "00005576": 2
+                }
+            }
+        ],
+
+        [
+            {
+                "PedestalCylinder": "Pedestal - Cylinder",
+                "ico": "PedestalCylinder.png",
+                "mat":
+                {
+                    "000055A7": 1,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "PedestalCylinder2": "Pedestal - Cylinder",
+                "ico": "PedestalCylinder2.png",
+                "mat":
+                {
+                    "000055A7": 1,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "PedestalSquare": "Pedestal - Square",
+                "ico": "PedestalSquare.png",
+                "mat":
+                {
+                    "000055A7": 1,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "PedestalSquare2": "Pedestal - Square",
+                "ico": "PedestalSquare2.png",
+                "mat":
+                {
+                    "000055A7": 1,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "PedestalSquare3": "Pedestal - Square",
+                "ico": "PedestalSquare3.png",
+                "mat":
+                {
+                    "000055A7": 1,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "PedestalSquare4": "Pedestal - Square",
+                "ico": "PedestalSquare4.png",
+                "mat":
+                {
+                    "000055A7": 1,
+                    "000055B9": 2
+                }
+            },
+
+            {
+                "PedestalSquare5": "Pedestal - Square",
+                "ico": "PedestalSquare5.png",
+                "mat":
+                {
+                    "000055A7": 1,
+                    "000055B9": 2
+                }
+            }
+        ],
+        
+        [
+            {
+                "PottedPlant": "Potted Plant",
+                "ico": "PottedPlant.png",
+                "mat":
+                {
+                    "000055AF": 1,
+                    "000055B9": 2
+                }
+            },
+            
+            {
+                "PottedPlant2": "Potted Plant",
+                "ico": "PottedPlant2.png",
+                "mat":
+                {
+                    "000055AF": 1,
+                    "000055B9": 2
+                }
+            },
+            
+            {
+                "PottedPlant3": "Potted Plant",
+                "ico": "PottedPlant3.png",
+                "mat":
+                {
+                    "000055AF": 1,
+                    "000055B9": 2
+                }
+            },
+            
+            {
+                "PottedPlant4": "Potted Plant",
+                "ico": "PottedPlant4.png",
+                "mat":
+                {
+                    "000055AF": 1,
+                    "000055B9": 2
+                }
+            },
+            
+            {
+                "PottedPlant5": "Potted Plant",
+                "ico": "PottedPlant5.png",
+                "mat":
+                {
+                    "000055AF": 1,
+                    "000055B9": 2
+                }
+            },
+            
+            {
+                "PottedPlant6": "Potted Plant",
+                "ico": "PottedPlant6.png",
+                "mat":
+                {
+                    "000055AF": 1,
+                    "000055B9": 2
+                }
+            },
+            
+            {
+                "PottedPlant7": "Potted Plant",
+                "ico": "PottedPlant7.png",
+                "mat":
+                {
+                    "000055AF": 1,
+                    "000055B9": 2
+                }
+            },
+            
+            {
+                "PottedPlant8": "Potted Plant",
+                "ico": "PottedPlant8.png",
+                "mat":
+                {
+                    "000055AF": 1,
+                    "000055B9": 2
+                }
+            },
+            
+            {
+                "PottedPlant9": "Potted Plant",
+                "ico": "PottedPlant9.png",
+                "mat":
+                {
+                    "000055AF": 1,
+                    "000055B9": 2
+                }
+            }
+        ],
+        
+        [
+            {
+                "HangingPlant": "Hanging Plant",
+                "ico": "HangingPlant.png",
+                "mat":
+                {
+                    "000055AF": 1,
+                    "000055B9": 2
+                }
+            },
+            
+            {
+                "HangingPlant2": "Hanging Plant",
+                "ico": "HangingPlant2.png",
+                "mat":
+                {
+                    "000055AF": 1,
+                    "000055B9": 2
+                }
+            },
+            
+            {
+                "HangingPlant3": "Hanging Plant",
+                "ico": "HangingPlant3.png",
+                "mat":
+                {
+                    "000055AF": 1,
+                    "000055B9": 2
+                }
+            },
+            
+            {
+                "HangingPlant4": "Hanging Plant",
+                "ico": "HangingPlant4.png",
+                "mat":
+                {
+                    "000055AF": 1,
+                    "000055B9": 2
+                }
+            },
+            
+            {
+                "HangingPlant5": "Hanging Plant",
+                "ico": "HangingPlant5.png",
+                "mat":
+                {
+                    "000055AF": 1,
+                    "000055B9": 2
+                }
+            },
+            
+            {
+                "HangingPlant6": "Hanging Plant",
+                "ico": "HangingPlant6.png",
+                "mat":
+                {
+                    "000055AF": 1,
+                    "000055B9": 2
+                }
+            },
+            
+            {
+                "HangingPlant7": "Hanging Plant",
+                "ico": "HangingPlant7.png",
+                "mat":
+                {
+                    "000055AF": 1,
+                    "000055B9": 2
+                }
+            },
+            
+            {
+                "HangingPlant8": "Hanging Plant",
+                "ico": "HangingPlant8.png",
+                "mat":
+                {
+                    "000055AF": 1,
+                    "000055B9": 2
+                }
+            },
+            
+            {
+                "HangingPlant9": "Hanging Plant",
+                "ico": "HangingPlant9.png",
+                "mat":
+                {
+                    "000055AF": 1,
+                    "000055B9": 2
+                }
+            },
+            
+            {
+                "HangingPlant10": "Hanging Plant",
+                "ico": "HangingPlant10.png",
+                "mat":
+                {
+                    "000055AF": 1,
+                    "000055B9": 2
+                }
+            },
+            
+            {
+                "HangingPlant11": "Hanging Plant",
+                "ico": "HangingPlant11.png",
+                "mat":
+                {
+                    "000055AF": 1,
+                    "000055B9": 2
+                }
+            }
+        ],
+        
+        {
+            "HangingRug": "Hanging Rug",
+            "ico": "HangingRug.png",
+            "mat":
+            {
+                "000055AF": 1,
+                "000055A7": 1,
+                "000055B9": 2
+            }
+        },
+        
+        {
+            "EarthGlobe": "Earth Globe",
+            "ico": "EarthGlobe.png",
+            "mat":
+            {
+                "000055B1": 1,
+                "000055B9": 1,
+                "00005576": 1
+            }
+        },
+        
+        {
+            "MetalSculpture": "Metal Sculpture",
+            "ico": "MetalSculpture.png",
+            "mat":
+            {
+                "0000556A": 2,
+                "00005576": 2
+            }
+        },
+        
+        {
+            "Sculpture": "Sculpture",
+            "ico": "Sculpture.png",
+            "mat":
+            {
+                "0000556E": 3,
+                "00005576": 2
+            }
+        },
+        
+        [
+            {
+                "Statue": "Statue",
+                "ico": "Statue.png",
+                "mat":
+                {
+                    "000055B9": 1,
+                    "0000556D": 2
+                }
+            },
+            
+            {
+                "Statue2": "Statue",
+                "ico": "Statue2.png",
+                "mat":
+                {
+                    "000055B9": 1,
+                    "0000556D": 2
+                }
+            },
+            
+            {
+                "Statue3": "Statue",
+                "ico": "Statue3.png",
+                "mat":
+                {
+                    "000055B9": 1,
+                    "0000556D": 2
+                }
+            }
+        ],
+        
+        [
+            {
+                "ModelShipBeagle": "Model Ship - Beagle",
+                "ico": "ModelShipBeagle.png",
+                "mat":
+                {
+                    "0029F400": 1,
+                    "000055B1": 1,
+                    "000055B9": 1
+                }
+            },
+            
+            {
+                "ModelShipCalypso": "Model Ship - Calypso",
+                "ico": "ModelShipCalypso.png",
+                "mat":
+                {
+                    "0029F400": 1,
+                    "000055B1": 1,
+                    "000055B9": 1
+                }
+            }
+        ],
+        
+        [
+            {
+                "ModelShipDeimos": "Model Ship - Deimos",
+                "ico": "ModelShipDeimos.png",
+                "mat":
+                {
+                    "0029F400": 1,
+                    "000055B1": 1,
+                    "000055A6": 1
+                }
+            },
+            
+            {
+                "ModelShipDeimos2": "Model Ship - Deimos",
+                "ico": "ModelShipDeimos2.png",
+                "mat":
+                {
+                    "0029F400": 1,
+                    "000055B1": 1,
+                    "000055A6": 1
+                }
+            },
+            
+            {
+                "ModelShipDeimos3": "Model Ship - Deimos",
+                "ico": "ModelShipDeimos3.png",
+                "mat":
+                {
+                    "0029F400": 1,
+                    "000055B1": 1,
+                    "000055A6": 1
+                }
+            },
+            
+            {
+                "ModelShipDeimos4": "Model Ship - Deimos",
+                "ico": "ModelShipDeimos4.png",
+                "mat":
+                {
+                    "0029F400": 1,
+                    "000055B1": 1,
+                    "000055A6": 1
+                }
+            }
+        ]
+
+    ],
+    
+    "Displays":
+    [
+        [
+            {
+                "Mannequin": "Mannequin",
+                "ico": "Mannequin.png",
+                "mat":
+                {
+                    "000055A6": 2,
+                    "000055B9": 2,
+                    "0029F400": 1,
+                    "000055B1": 2
+                }
+            },
+            
+            {
+                "Mannequin2": "Mannequin",
+                "ico": "Mannequin2.png",
+                "mat":
+                {
+                    "000055A6": 2,
+                    "000055B9": 2,
+                    "0029F400": 1,
+                    "000055B1": 2
+                }
+            },
+            
+            {
+                "Mannequin3": "Mannequin",
+                "ico": "Mannequin3.png",
+                "mat":
+                {
+                    "000055A6": 2,
+                    "000055B9": 2,
+                    "0029F400": 1,
+                    "000055B1": 2
+                }
+            },
+            
+            {
+                "Mannequin4": "Mannequin",
+                "ico": "Mannequin4.png",
+                "mat":
+                {
+                    "000055A6": 2,
+                    "000055B9": 2,
+                    "0029F400": 1,
+                    "000055B1": 2
+                }
+            },
+            
+            {
+                "Mannequin5": "Mannequin",
+                "ico": "Mannequin5.png",
+                "mat":
+                {
+                    "000055A6": 2,
+                    "000055B9": 2,
+                    "0029F400": 1,
+                    "000055B1": 2
+                }
+            },
+            
+            {
+                "Mannequin6": "Mannequin",
+                "ico": "Mannequin6.png",
+                "mat":
+                {
+                    "000055A6": 2,
+                    "000055B9": 2,
+                    "0029F400": 1,
+                    "000055B1": 2
+                }
+            },
+            
+            {
+                "Mannequin7": "Mannequin",
+                "ico": "Mannequin7.png",
+                "mat":
+                {
+                    "000055A6": 2,
+                    "000055B9": 2,
+                    "0029F400": 1,
+                    "000055B1": 2
+                }
+            },
+            
+            {
+                "Mannequin8": "Mannequin",
+                "ico": "Mannequin8.png",
+                "mat":
+                {
+                    "000055A6": 2,
+                    "000055B9": 2,
+                    "0029F400": 1,
+                    "000055B1": 2
+                }
+            },
+            
+            {
+                "Mannequin9": "Mannequin",
+                "ico": "Mannequin9.png",
+                "mat":
+                {
+                    "000055A6": 2,
+                    "000055B9": 2,
+                    "0029F400": 1,
+                    "000055B1": 2
+                }
+            },
+            
+            {
+                "Mannequin10": "Mannequin",
+                "ico": "Mannequin10.png",
+                "mat":
+                {
+                    "000055A6": 2,
+                    "000055B9": 2,
+                    "0029F400": 1,
+                    "000055B1": 2
+                }
+            },
+            
+            {
+                "Mannequin11": "Mannequin",
+                "ico": "Mannequin11.png",
+                "mat":
+                {
+                    "000055A6": 2,
+                    "000055B9": 2,
+                    "0029F400": 1,
+                    "000055B1": 2
+                }
+            },
+            
+            {
+                "Mannequin12": "Mannequin",
+                "ico": "Mannequin12.png",
+                "mat":
+                {
+                    "000055A6": 2,
+                    "000055B9": 2,
+                    "0029F400": 1,
+                    "000055B1": 2
+                }
+            },
+            
+            {
+                "Mannequin13": "Mannequin",
+                "ico": "Mannequin13.png",
+                "mat":
+                {
+                    "000055A6": 2,
+                    "000055B9": 2,
+                    "0029F400": 1,
+                    "000055B1": 2
+                }
+            },
+            
+            {
+                "Mannequin14": "Mannequin",
+                "ico": "Mannequin14.png",
+                "mat":
+                {
+                    "000055A6": 2,
+                    "000055B9": 2,
+                    "0029F400": 1,
+                    "000055B1": 2
+                }
+            },
+            
+            {
+                "Mannequin15": "Mannequin",
+                "ico": "Mannequin15.png",
+                "mat":
+                {
+                    "000055A6": 2,
+                    "000055B9": 2,
+                    "0029F400": 1,
+                    "000055B1": 2
+                }
+            },
+            
+            {
+                "Mannequin16": "Mannequin",
+                "ico": "Mannequin16.png",
+                "mat":
+                {
+                    "000055A6": 2,
+                    "000055B9": 2,
+                    "0029F400": 1,
+                    "000055B1": 2
+                }
+            },
+            
+            {
+                "Mannequin17": "Mannequin",
+                "ico": "Mannequin17.png",
+                "mat":
+                {
+                    "000055A6": 2,
+                    "000055B9": 2,
+                    "0029F400": 1,
+                    "000055B1": 2
+                }
+            },
+            
+            {
+                "Mannequin18": "Mannequin",
+                "ico": "Mannequin18.png",
+                "mat":
+                {
+                    "000055A6": 2,
+                    "000055B9": 2,
+                    "0029F400": 1,
+                    "000055B1": 2
+                }
+            },
+            
+            {
+                "Mannequin19": "Mannequin",
+                "ico": "Mannequin19.png",
+                "mat":
+                {
+                    "000055A6": 2,
+                    "000055B9": 2,
+                    "0029F400": 1,
+                    "000055B1": 2
+                }
+            },
+            
+            {
+                "Mannequin20": "Mannequin",
+                "ico": "Mannequin20.png",
+                "mat":
+                {
+                    "000055A6": 2,
+                    "000055B9": 2,
+                    "0029F400": 1,
+                    "000055B1": 2
+                }
+            },
+            
+            {
+                "Mannequin21": "Mannequin",
+                "ico": "Mannequin21.png",
+                "mat":
+                {
+                    "000055A6": 2,
+                    "000055B9": 2,
+                    "0029F400": 1,
+                    "000055B1": 2
+                }
+            },
+            
+            {
+                "Mannequin22": "Mannequin",
+                "ico": "Mannequin22.png",
+                "mat":
+                {
+                    "000055A6": 2,
+                    "000055B9": 2,
+                    "0029F400": 1,
+                    "000055B1": 2
+                }
+            },
+            
+            {
+                "Mannequin23": "Mannequin",
+                "ico": "Mannequin23.png",
+                "mat":
+                {
+                    "000055A6": 2,
+                    "000055B9": 2,
+                    "0029F400": 1,
+                    "000055B1": 2
+                }
+            },
+            
+            {
+                "Mannequin24": "Mannequin",
+                "ico": "Mannequin24.png",
+                "mat":
+                {
+                    "000055A6": 2,
+                    "000055B9": 2,
+                    "0029F400": 1,
+                    "000055B1": 2
+                }
+            },
+            
+            {
+                "Mannequin25": "Mannequin",
+                "ico": "Mannequin25.png",
+                "mat":
+                {
+                    "000055A6": 2,
+                    "000055B9": 2,
+                    "0029F400": 1,
+                    "000055B1": 2
+                }
+            },
+            
+            {
+                "Mannequin26": "Mannequin",
+                "ico": "Mannequin26.png",
+                "mat":
+                {
+                    "000055A6": 2,
+                    "000055B9": 2,
+                    "0029F400": 1,
+                    "000055B1": 2
+                }
+            }
+        ],
+        
+        [
+            {
+                "DataSlateDisplay": "Data Slate Display",
+                "ico": "DataSlateDisplay.png",
+                "mat":
+                {
+                    "0000557D": 1,
+                    "000055B1": 1
+                }
+            },
+            
+            {
+                "DataSlateDisplay2": "Data Slate Display",
+                "ico": "DataSlateDisplay2.png",
+                "mat":
+                {
+                    "0000557D": 2,
+                    "000055B1": 1
+                }
+            }
+        ],
+        
+        [
+            {
+                "DisplayCase": "Display Case",
+                "ico": "DisplayCase.png",
+                "mat":
+                {
+                    "000055B9": 2,
+                    "0000557D": 2
+                }
+            },
+            
+            {
+                "DisplayCase2": "Display Case",
+                "ico": "DisplayCase2.png",
+                "mat":
+                {
+                    "000055B9": 2,
+                    "0000557D": 2
+                }
+            },
+            
+            {
+                "DisplayCase3": "Display Case",
+                "ico": "DisplayCase3.png",
+                "mat":
+                {
+                    "000055B9": 2,
+                    "0000557D": 2
+                }
+            },
+            
+            {
+                "DisplayCase4": "Display Case",
+                "ico": "DisplayCase4.png",
+                "mat":
+                {
+                    "000055B9": 2,
+                    "0000557D": 2
+                }
+            },
+            
+            {
+                "DisplayShelf": "Display Shelf",
+                "ico": "DisplayShelf.png",
+                "mat":
+                {
+                    "000055B9": 3,
+                    "0000557D": 2
+                }
+            },
+            
+            {
+                "WeaponDisplayCase": "Weapon Display Case",
+                "ico": "WeaponDisplayCase.png",
+                "mat":
+                {
+                    "000055B9": 2,
+                    "0000557D": 2
+                }
+            },
+            
+            {
+                "WeaponDisplayCase": "Weapon Display Case",
+                "ico": "WeaponDisplayCase2.png",
+                "mat":
+                {
+                    "000055B9": 2,
+                    "0000557D": 2
+                }
+            },
+            
+            {
+                "DisplayShelf2": "Display Shelf",
+                "ico": "DisplayShelf2.png",
+                "mat":
+                {
+                    "000055B9": 2,
+                    "0000557D": 2
+                }
+            },
+            
+            {
+                "DisplayCase9": "Display Case",
+                "ico": "DisplayCase9.png",
+                "mat":
+                {
+                    "000055B9": 2,
+                    "0000557D": 2
+                }
+            }
+        ],
+        
+        [
+            {
+                "HelmetDisplay": "Helmet Display",
+                "ico": "HelmetDisplay.png",
+                "mat":
+                {
+                    "000055B9": 1,
+                    "0000557D": 2
+                }
+            },
+            
+            {
+                "HelmetStand": "Helmet Stand",
+                "ico": "HelmetStand.png",
+                "mat":
+                {
+                    "000055B9": 1,
+                    "0000557D": 2
+                }
+            }
+        ],
+        
+        [
+            {
+                "WeaponRack": "Weapon Rack",
+                "ico": "WeaponRack.png",
+                "mat":
+                {
+                    "00005576": 1,
+                    "0000556E": 2
+                }
+            },
+            
+            {
+                "WeaponRack2": "Weapon Rack",
+                "ico": "WeaponRack2.png",
+                "mat":
+                {
+                    "00005576": 1,
+                    "0000556E": 2
+                }
+            },
+            
+            {
+                "WeaponRack3": "Weapon Rack",
+                "ico": "WeaponRack3.png",
+                "mat":
+                {
+                    "00005576": 1,
+                    "0000556E": 2
+                }
+            }
+        ],
+        
+        [
+            {
+                "WeaponRack2_1": "Weapon Rack",
+                "ico": "WeaponRack2_1.png",
+                "mat":
+                {
+                    "000055B9": 1,
+                    "0000556E": 2
+                }
+            },
+            
+            {
+                "WeaponRack2_2": "Weapon Rack",
+                "ico": "WeaponRack2_2.png",
+                "mat":
+                {
+                    "000055B9": 1,
+                    "0000556E": 2
+                }
+            },
+            
+            {
+                "WeaponRack2_3": "Weapon Rack",
+                "ico": "WeaponRack2_3.png",
+                "mat":
+                {
+                    "000055B9": 1,
+                    "0000556E": 2
+                }
+            }
+        ],
+        
+        [
+            {
+                "WeaponCase": "Weapon Case",
+                "ico": "WeaponCase.png",
+                "mat":
+                {
+                    "000055A6": 1,
+                    "0000556D": 2
+                }
+            },
+            
+            {
+                "WeaponCase2": "Weapon Case",
+                "ico": "WeaponCase2.png",
+                "mat":
+                {
+                    "000055A6": 1,
+                    "0000556D": 2
+                }
+            },
+            
+            {
+                "WeaponCase3": "Weapon Case",
+                "ico": "WeaponCase3.png",
+                "mat":
+                {
+                    "000055A6": 1,
+                    "0000556D": 2
+                }
+            }
+        ],
+        
+        [
+            {
+                "BackpackStand": "Backpack Stand",
+                "ico": "BackpackStand.png",
+                "mat":
+                {
+                    "000055B9": 1,
+                    "0000557D": 2
+                }
+            },
+            
+            {
+                "BackpackStand2": "Backpack Stand",
+                "ico": "BackpackStand2.png",
+                "mat":
+                {
+                    "000055B9": 1,
+                    "0000557D": 2
+                }
+            },
+            
+            {
+                "BackpackStand3": "Backpack Stand",
+                "ico": "BackpackStand3.png",
+                "mat":
+                {
+                    "000055B9": 1,
+                    "0000557D": 2
+                }
+            }
+        ]
+        
+    ],
+    
+    "Miscellaneous":
+    [
+        [
+            {
+                "ScanBooster": "Scan Booster",
+                "ico": "ScanBooster.png",
+                "mat":
+                {
+                    "00005576": 3,
+                    "000057D9": 2,
+                    "0000557D": 4
+                }
+            },
+            
+            {
+                "ScanBoosterAdvanced": "Scan Booster - Advanced",
+                "ico": "ScanBoosterAdvanced.png",
+                "mat":
+                {
+                    "00246B77": 1,
+                    "00246B64": 1,
+                    "0000557D": 5,
+                    "00246B65": 3
+                }
+            },
+            
+            {
+                "ScanBoosterMilitaryGrade": "Scan Booster - Military Grade",
+                "ico": "ScanBoosterMilitaryGrade.png",
+                "mat":
+                {
+                    "00246B73": 1,
+                    "00246B64": 2,
+                    "00246B69": 1,
+                    "0000557D": 6
+                }
+            }
+        ],
+        
+        {
+            "CargoLink": "Cargo Link",
+            "ico": "CargoLink.png",
+            "mat":
+            {
+                "000057D9": 2,
+                "0000557D": 12,
+                "00246B65": 2,
+                "0000556E": 20
+            }
+        },
+        
+        {
+            "CargoLinkInterSystem": "Cargo Link - Inter-System",
+            "ico": "CargoLinkInterSystem.png",
+            "mat":
+            {
+                "00246B64": 1,
+                "00246B6F": 3,
+                "0000557D": 12,
+                "0000556E": 20
+            }
+        },
+        
+        {
+            "CrewStation": "Crew Station",
+            "ico": "CrewStation.png",
+            "mat":
+            {
+                "0000557D": 5,
+                "00005572": 3,
+                "0000556E": 2
+            }
+        },
+        
+        {
+            "LandingPad": "Landing Pad with Shipbuilder",
+            "ico": "LandingPad.png",
+            "mat":
+            {
+                "000057D9": 2,
+                "00246B6A": 18,
+                "00246B65": 2,
+                "0000556E": 30
+            }
+        },
+        
+        {
+            "LandingPad2": "Landing Pad - Small",
+            "ico": "LandingPad2.png",
+            "mat":
+            {
+                "0000557D": 8,
+                "0000556E": 20
+            }
+        },
+        
+        [
+            {
+                "MissionBoard": "Mission Board",
+                "ico": "MissionBoard.png",
+                "mat":
+                {
+                    "000057D9": 2,
+                    "0000557D": 4,
+                    "00246B65": 2
+                }
+            },
+            
+            {
+                "ConstellationMissionBoard": "Constellation Mission Board",
+                "ico": "ConstellationMissionBoard.png",
+                "mat":
+                {
+                    "000057D9": 2,
+                    "0000557D": 4,
+                    "00246B65": 2
+                }
+            }
+        ],
+        
+        {
+            "SelfServiceBountyClearance": "Self-Service Bounty Clearance",
+            "ico": "SelfServiceBountyClearance.png",
+            "mat":
+            {
+                "000057D9": 2,
+                "0000557D": 4,
+                "00246B65": 2
+            }
+        }
+    ]
+
+}
