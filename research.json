@@ -1,0 +1,858 @@
+{
+    "_layout": "tree",
+    "_comment": "requires resources.json",
+
+	"Research":
+	{
+		"Pharmacology Research":
+		[
+			{
+				"PerformanceEnhancement": "Performance Enhancement 1",
+				"ico": "PharmacologyResearch.png",
+				"mat":
+				{
+					"00005588": 2,
+					"00005578": 2,
+					"0029F3FC": 3
+				}
+			},
+
+			{
+				"PerformanceEnhancement2": "Performance Enhancement 2",
+				"ico": "PharmacologyResearch.png",
+				"mat":
+				{
+					"000055CE": 10,
+					"00005586": 10,
+					"000055B0": 5,
+					"002C5883": 5,
+					"0029A85C": 5
+				}
+			},
+
+			{
+				"PerformanceEnhancement3": "Performance Enhancement 3",
+				"ico": "PharmacologyResearch.png",
+				"mat":
+				{
+					"0000557A": 10,
+					"000055AE": 10,
+					"000055CB": 10,
+					"002A9DE7": 5,
+					"002C5880": 5
+				}
+			},
+
+			{
+				"PerformanceEnhancement4": "Performance Enhancement 4",
+				"ico": "PharmacologyResearch.png",
+				"mat":
+				{
+					"000055AE": 20,
+					"002C5884": 10,
+					"0029A85E": 10,
+					"002A9DE7": 10,
+					"00143CB2": 8
+				}
+			},
+
+			{
+				"MedicalTreatment": "Medical Treatment 1",
+				"ico": "PharmacologyResearch.png",
+				"mat":
+				{
+					"000055AB": 3,
+					"000055CD": 2,
+					"0000557D": 2
+				}
+			},
+
+			{
+				"MedicalTreatment2": "Medical Treatment 2",
+				"ico": "PharmacologyResearch.png",
+				"mat":
+				{
+					"000055CD": 10,
+					"000055A9": 10,
+					"000055AB": 10,
+					"002A5024": 5,
+					"0029CAD9": 5
+				}
+			},
+
+			{
+				"MedicalTreatment3": "Medical Treatment 3",
+				"ico": "PharmacologyResearch.png",
+				"mat":
+				{
+					"000055AD": 10,
+					"0029F3FC": 20,
+					"002F4436": 10,
+					"000055CC": 10
+				}
+			},
+
+			{
+				"MedicalTreatment4": "Medical Treatment 4",
+				"ico": "PharmacologyResearch.png",
+				"mat":
+				{
+					"000055B3": 5,
+					"000055B0": 20,
+					"0029CAD9": 10,
+					"0029A847": 10
+				}
+			},
+
+			{
+				"InnovativeSynthesis": "Innovative Synthesis 1",
+				"ico": "PharmacologyResearch.png",
+				"mat":
+				{
+					"000C1F57": 3,
+					"00005586": 5,
+					"0027C4A1": 10,
+					"000055CE": 5,
+					"00005578": 5
+				}
+			},
+
+			{
+				"InnovativeSynthesis2": "Innovative Synthesis 2",
+				"ico": "PharmacologyResearch.png",
+				"mat":
+				{
+					"000C1F57": 5,
+					"00005586": 10,
+					"000055CE": 5,
+					"00299599": 5,
+					"002C5884": 5
+				}
+			},
+
+			{
+				"InnovativeSynthesis3": "Innovative Synthesis 3",
+				"ico": "PharmacologyResearch.png",
+				"mat":
+				{
+					"000C1F57": 10,
+					"0000557A": 8,
+					"000055CE": 10,
+					"00005586": 10,
+					"00122EB1": 5,
+					"00122EA8": 5
+				}
+			}
+		],
+
+		"Food And Drink Research":
+		[
+			{
+				"OldEarthCuisine": "Old Earth Cuisine 1",
+				"ico": "FoodAndDrink.png",
+				"mat":
+				{
+					"002C723E": 3,
+					"0029B03B": 2,
+					"001FC9C1": 2
+				}
+			},
+
+			{
+				"OldEarthCuisine2": "Old Earth Cuisine 2",
+				"ico": "FoodAndDrink.png",
+				"mat":
+				{
+					"000055AC": 5,
+					"001FC9C1": 5,
+					"002C7222": 5,
+					"002C7C0A": 5,
+					"0029B039": 5
+				}
+			},
+
+			{
+				"BeverageDevelopment": "Beverage Development 1",
+				"ico": "FoodAndDrink.png",
+				"mat":
+				{
+					"000055AC": 2,
+					"000055AF": 3,
+					"00005591": 3
+				}
+			},
+
+			{
+				"BeverageDevelopment2": "Beverage Development 2",
+				"ico": "FoodAndDrink.png",
+				"mat":
+				{
+					"000055B8": 5,
+					"00005585": 5,
+					"000055AC": 5,
+					"0029F3FC": 10,
+					"003B7117": 5
+				}
+			},
+
+			{
+				"Mixology": "Mixology 1",
+				"ico": "FoodAndDrink.png",
+				"mat":
+				{
+					"000055B8": 2,
+					"00005570": 2,
+					"000055AC": 3
+				}
+			},
+
+			{
+				"Mixology2": "Mixology 2",
+				"ico": "FoodAndDrink.png",
+				"mat":
+				{
+					"000055B8": 10,
+					"000055AC": 10,
+					"0029B04F": 5,
+					"002C7231": 5
+				}
+			}
+		],
+
+		"Outpost Development Research":
+		[
+			{
+				"Manufacturing": "Manufacturing 1",
+				"ico": "OutpostDevelopment.png",
+				"mat":
+				{
+					"00246B65": 2,
+					"00246B6A": 3,
+					"0000556E": 3,
+					"000055CC": 3
+				}
+			},
+
+			{
+				"Manufacturing2": "Manufacturing 2",
+				"ico": "OutpostDevelopment.png",
+				"mat":
+				{
+					"00246B65": 10,
+					"00246B6F": 5,
+					"00246B6A": 10,
+					"0000556E": 30,
+					"0000556B": 20,
+					"000055CC": 20,
+					"000055BA": 10
+				}
+			},
+
+			{
+				"Manufacturing3": "Manufacturing 3",
+				"ico": "OutpostDevelopment.png",
+				"mat":
+				{
+					"00246B65": 20,
+					"00246B6F": 10,
+					"00246B71": 5,
+					"00246B6A": 30,
+					"0000556E": 40,
+					"0000556B": 30,
+					"000055CC": 30,
+					"000055BA": 10
+				}
+			},
+
+			{
+				"ResourceExtraction": "Resource Extraction 1",
+				"ico": "OutpostDevelopment.png",
+				"mat":
+				{
+					"0020A02F": 5,
+					"00246B70": 8,
+					"00246B6A": 10,
+					"0000557D": 30,
+					"00005576": 20,
+					"0000557E": 10
+				}
+			},
+
+			{
+				"ResourceExtraction2": "Resource Extraction 2",
+				"ico": "OutpostDevelopment.png",
+				"mat":
+				{
+					"00202F5A": 5,
+					"00246B5F": 8,
+					"00246B6A": 20,
+					"0000557D": 40,
+					"000057DF": 20,
+					"0000557E": 20
+				}
+			},
+
+			{
+				"Decoration": "Decoration 1",
+				"ico": "OutpostDevelopment.png",
+				"mat":
+				{
+					"000055B9": 3,
+					"000055AF": 3,
+					"000055A7": 2
+				}
+			},
+
+			{
+				"Decoration2": "Decoration 2",
+				"ico": "OutpostDevelopment.png",
+				"mat":
+				{
+					"000055B9": 10,
+					"0000557D": 10,
+					"000055AF": 10,
+					"0029F400": 10,
+					"000055B1": 10
+				}
+			},
+
+			{
+				"Decoration3": "Decoration 3",
+				"ico": "OutpostDevelopment.png",
+				"mat":
+				{
+					"000055B9": 30,
+					"0000557D": 30,
+					"000055AF": 20,
+					"00005572": 20,
+					"000055B1": 30,
+					"0000559E": 5
+				}
+			},
+
+			{
+				"Horticulture": "Horticulture 1",
+				"ico": "OutpostDevelopment.png",
+				"mat":
+				{
+					"0000556B": 10,
+					"00246B6A": 10,
+					"00246B70": 8,
+					"0029F3FC": 10,
+					"000777FD": 10
+				}
+			},
+
+			{
+				"Horticulture2": "Horticulture 2",
+				"ico": "OutpostDevelopment.png",
+				"mat":
+				{
+					"00246B70": 10,
+					"00246B6A": 20,
+					"0000556B": 20,
+					"000777FD": 30,
+					"0029F3FC": 30,
+					"000055CD": 10
+				}
+			},
+
+			{
+				"Domestication": "Domestication 1",
+				"ico": "OutpostDevelopment.png",
+				"mat":
+				{
+					"0000557D": 30,
+					"000055CC": 10,
+					"000055B1": 10,
+					"00246B6A": 10,
+					"00246B75": 5
+				}
+			},
+
+			{
+				"Domestication2": "Domestication 2",
+				"ico": "OutpostDevelopment.png",
+				"mat":
+				{
+					"00202782": 8,
+					"00246B6A": 20,
+					"0000557D": 40,
+					"000055CC": 30,
+					"000055B1": 30,
+					"0029F40D": 10
+				}
+			},
+
+			{
+				"PowerGeneration": "Power Generation 1",
+				"ico": "OutpostDevelopment.png",
+				"mat":
+				{
+					"00005576": 20,
+					"0000556A": 30,
+					"00005575": 10,
+					"00246B6A": 10,
+					"00246B77": 8,
+					"00246B65": 10
+				}
+			},
+
+			{
+				"PowerGeneration2": "Power Generation 2",
+				"ico": "OutpostDevelopment.png",
+				"mat":
+				{
+					"00246B65": 20,
+					"00246B68": 5,
+					"00246B69": 3,
+					"00246B5C": 3,
+					"000057DF": 20,
+					"000057D9": 30,
+					"0000556D": 30
+				}
+			},
+
+			{
+				"PowerGeneration3": "Power Generation 3",
+				"ico": "OutpostDevelopment.png",
+				"mat":
+				{
+					"00246B73": 10,
+					"00246B68": 10,
+					"00246B76": 10,
+					"00246B79": 10,
+					"00246B7B": 8,
+					"00246B69": 5,
+					"00246B5C": 5,
+					"0000556B": 30,
+					"00005568": 30
+				}
+			},
+
+			{
+				"PowerGeneration4": "Power Generation 4",
+				"ico": "OutpostDevelopment.png",
+				"mat":
+				{
+					"00203EAF": 8,
+					"00246B68": 30,
+					"00246B76": 20,
+					"00203EB3": 10,
+					"00246B7B": 10,
+					"00203EB2": 5,
+					"00246B5C": 10,
+					"0000556B": 40,
+					"00005568": 50
+				}
+			},
+
+			{
+				"Robots": "Robots 1",
+				"ico": "OutpostDevelopment.png",
+				"mat":
+				{
+					"0000557D": 3,
+					"000057D9": 3,
+					"00246B65": 2
+				}
+			},
+
+			{
+				"Robots2": "Robots 2",
+				"ico": "OutpostDevelopment.png",
+				"mat":
+				{
+					"00246B71": 8,
+					"00246B65": 30,
+					"00246B7C": 8,
+					"0000556D": 30,
+					"0000557E": 30,
+					"00005575": 30,
+					"000055A6": 10
+				}
+			},
+
+			{
+				"OutpostDefense": "Outpost Defense 1",
+				"ico": "OutpostDevelopment.png",
+				"mat":
+				{
+					"0000557D": 30,
+					"0000556D": 10,
+					"00005577": 5,
+					"00005576": 5,
+					"00246B71": 3,
+					"00246B65": 8
+				}
+			},
+
+			{
+				"OutpostDefense2": "Outpost Defense 2",
+				"ico": "OutpostDevelopment.png",
+				"mat":
+				{
+					"00246B71": 8,
+					"00203EB0": 3,
+					"00246B5C": 2,
+					"0000556D": 30,
+					"0000557D": 40,
+					"00005576": 10,
+					"00005587": 10
+				}
+			}
+		],
+
+		"Equipment Research":
+		[
+			{
+				"HelmetMods": "Helmet Mods 1",
+				"ico": "EquipmentResearch.png",
+				"mat":
+				{
+					"0000556B": 3,
+					"000055A8": 2,
+					"000055A6": 3
+				}
+			},
+
+			{
+				"HelmetMods2": "Helmet Mods 2",
+				"ico": "EquipmentResearch.png",
+				"mat":
+				{
+					"00246B6C": 5,
+					"00246B71": 5,
+					"00246B65": 8,
+					"0000556D": 10,
+					"000055B1": 10
+				}
+			},
+
+			{
+				"HelmetMods3": "Helmet Mods 3",
+				"ico": "EquipmentResearch.png",
+				"mat":
+				{
+					"00246B5F": 8,
+					"00203EB4": 5,
+					"000055AA": 8,
+					"000788D6": 10,
+					"0000556B": 30,
+					"000055A6": 10
+				}
+			},
+
+			{
+				"SpacesuitMods": "Spacesuit Mods 1",
+				"ico": "EquipmentResearch.png",
+				"mat":
+				{
+					"00246B72": 8,
+					"00005576": 5,
+					"000055A8": 5
+				}
+			},
+
+			{
+				"SpacesuitMods2": "Spacesuit Mods 2",
+				"ico": "EquipmentResearch.png",
+				"mat":
+				{
+					"00246B6D": 5,
+					"00246B71": 5,
+					"00246B72": 10,
+					"0000556D": 10,
+					"000055B1": 10
+				}
+			},
+
+			{
+				"SpacesuitMods3": "Spacesuit Mods 3",
+				"ico": "EquipmentResearch.png",
+				"mat":
+				{
+					"00246B5F": 8,
+					"00203EB4": 5,
+					"00246B71": 8,
+					"000788D6": 10,
+					"0000556B": 30,
+					"000055BA": 20
+				}
+			},
+
+			{
+				"PackMods": "Pack Mods 1",
+				"ico": "EquipmentResearch.png",
+				"mat":
+				{
+					"00246B74": 5,
+					"00246B70": 8,
+					"0000557D": 10,
+					"000057D9": 10
+				}
+			},
+
+			{
+				"PackMods2": "Pack Mods 2",
+				"ico": "EquipmentResearch.png",
+				"mat":
+				{
+					"00246B66": 5,
+					"00246B74": 10,
+					"000057D9": 10,
+					"000055A6": 8,
+					"000055CC": 10
+				}
+			},
+
+			{
+				"PackMods3": "Pack Mods 3",
+				"ico": "EquipmentResearch.png",
+				"mat":
+				{
+					"00246B66": 10,
+					"00246B74": 20,
+					"00246B68": 10,
+					"000057D9": 20,
+					"000055B2": 10,
+					"000055CD": 20
+				}
+			}
+		],
+
+
+		"Weaponry Research":
+		[
+			{
+				"BarrelMods": "Barrel Mods 1",
+				"ico": "WeaponryResearch.png",
+				"mat":
+				{
+					"0000556E": 3,
+					"00005572": 3,
+					"000055CC": 2
+				}
+			},
+
+			{
+				"BarrelMods2": "Barrel Mods 2",
+				"ico": "WeaponryResearch.png",
+				"mat":
+				{
+					"0000556B": 5,
+					"00005572": 10,
+					"000055BA": 5
+				}
+			},
+
+			{
+				"GripStockMods": "Grip And Stock Mods 1",
+				"ico": "WeaponryResearch.png",
+				"mat":
+				{
+					"0000557D": 3,
+					"00005572": 3,
+					"000055CC": 3
+				}
+			},
+
+			{
+				"GripStockMods2": "Grip And Stock Mods 2",
+				"ico": "WeaponryResearch.png",
+				"mat":
+				{
+					"0000556B": 8,
+					"000055A6": 5,
+					"000055B1": 10
+				}
+			},
+
+			{
+				"GripStockMods2": "Grip And Stock Mods 3",
+				"ico": "WeaponryResearch.png",
+				"mat":
+				{
+					"0000556D": 10,
+					"000055A6": 10,
+					"000055B1": 20
+				}
+			},
+
+			{
+				"OpticsLaserMods": "Optics And Laser Mods 1",
+				"ico": "WeaponryResearch.png",
+				"mat":
+				{
+					"0000557D": 3,
+					"0000557E": 2,
+					"000055CC": 3
+				}
+			},
+
+			{
+				"OpticsLaserMods2": "Optics And Laser Mods 2",
+				"ico": "WeaponryResearch.png",
+				"mat":
+				{
+					"00246B65": 8,
+					"0000557E": 8,
+					"0000557D": 10,
+					"000055B1": 8
+				}
+			},
+
+			{
+				"OpticsLaserMods2": "Optics And Laser Mods 3",
+				"ico": "WeaponryResearch.png",
+				"mat":
+				{
+					"00246B65": 10,
+					"0000558B": 20,
+					"0000558A": 20,
+					"000055B1": 20
+				}
+			},
+
+			{
+				"MuzzleMods": "Muzzle Mods 1",
+				"ico": "WeaponryResearch.png",
+				"mat":
+				{
+					"0000556D": 5,
+					"0000556B": 10,
+					"000055CC": 5
+				}
+			},
+
+			{
+				"MuzzleMods2": "Muzzle Mods 2",
+				"ico": "WeaponryResearch.png",
+				"mat":
+				{
+					"00246B65": 8,
+					"0000556F": 10,
+					"0000556D": 10,
+					"000055A6": 10
+				}
+			},
+
+			{
+				"MuzzleMods3": "Muzzle Mods 3",
+				"ico": "WeaponryResearch.png",
+				"mat":
+				{
+					"00246B76": 10,
+					"00005571": 10,
+					"0000556D": 20,
+					"000055A6": 10,
+					"000055B1": 20
+				}
+			},
+
+			{
+				"MagazineBatteryMods": "Magazine And Battery Mods 1",
+				"ico": "WeaponryResearch.png",
+				"mat":
+				{
+					"0000556D": 5,
+					"00005568": 8,
+					"000055B1": 5
+				}
+			},
+
+			{
+				"MagazineBatteryMods2": "Magazine And Battery Mods 2",
+				"ico": "WeaponryResearch.png",
+				"mat":
+				{
+					"00246B77": 8,
+					"00246B68": 8,
+					"00005589": 10,
+					"00005568": 20,
+					"000055B1": 10
+				}
+			},
+
+			{
+				"MagazineBatteryMods3": "Magazine And Battery Mods 3",
+				"ico": "WeaponryResearch.png",
+				"mat":
+				{
+					"00246B71": 8,
+					"000055CB": 20,
+					"00005571": 20,
+					"00005568": 30,
+					"000055B1": 20
+				}
+			},
+
+			{
+				"InternalMods": "Internal Mods 1",
+				"ico": "WeaponryResearch.png",
+				"mat":
+				{
+					"00246B65": 5,
+					"0000558A": 8,
+					"0000556B": 10,
+					"000055CC": 10
+				}
+			},
+
+			{
+				"InternalMods2": "Internal Mods 2",
+				"ico": "WeaponryResearch.png",
+				"mat":
+				{
+					"00246B77": 8,
+					"00246B65": 8,
+					"0000556F": 10,
+					"0000556D": 10,
+					"000055B1": 10
+				}
+			},
+
+			{
+				"InternalMods3": "Internal Mods 3",
+				"ico": "WeaponryResearch.png",
+				"mat":
+				{
+					"00246B5C": 2,
+					"00246B65": 10,
+					"000057E1": 20,
+					"00005571": 10,
+					"0000556D": 20,
+					"000055A6": 10
+				}
+			},
+
+			{
+				"ReceiverMods": "Receiver Mods 1",
+				"ico": "WeaponryResearch.png",
+				"mat":
+				{
+					"00246B76": 5,
+					"00246B5F": 3,
+					"00005571": 10,
+					"0000556D": 30,
+					"000055BA": 10
+				}
+			},
+
+			{
+				"ReceiverMods2": "Receiver Mods 2",
+				"ico": "WeaponryResearch.png",
+				"mat":
+				{
+					"00246B76": 8,
+					"00246B5F": 5,
+					"00005571": 20,
+					"000055A6": 20,
+					"000055BA": 20
+				}
+			}
+
+		]
+    }
+
+}
