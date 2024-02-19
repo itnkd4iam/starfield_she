@@ -56,3 +56,7 @@ For an extensive list of items/mods, refer to spreadsheet created by [TiffanyGam
 
 ### Known issue
 * Creating modded items of similar type (ie Advanced Magshear and Legendary Advanced Magshear) will result in the 1st item not being modded properly. To fix this problem, separate the console commands in 2 different batch files and run them separately.
+
+
+### Donate
+If you'd like to leave a tip, you can follow this [PayPal link](https://www.paypal.com/paypalme/ehalos/1?country.x=PH&locale.x=en_US) or buy one of [my NFTs](https://linktr.ee/iamai_nft) 🙃🙏
